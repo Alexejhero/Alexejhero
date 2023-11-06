@@ -17,6 +17,12 @@ I'm a passionate developer with experience in Unity game development and modding
 - Pascal - [Inno Setup](https://jrsoftware.org/isinfo.php)
 
 ## 💼 Work and Projects
+### Subnautica Modder (2018-2020, 2023-Present)
+- 💻 Currently working on [Neurosama-Subnautica-Mod](https://github.com/alexejhero/neurosama-subnautica-mod), a mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
+- Maintained popular modding tools [QModManager](https://github.com/SubnauticaModding/QModManager) and [SMLHelper](https://github.com/SubnauticaModding/SMLHelper)
+- Created [various mods](https://github.com/Alexejhero/Subnautica-Mods) that improved and expanded the gameplay experience
+- Created [a website](https://github.com/SubnauticaModding/MOTY) for an annual event held in the Subnautica Modding community
+
 ### Among Us Modder (2020-Present)
 - 💻 Currently working on [neuro-amongus](https://github.com/vedalai/neuro-amongus), a mod which will allow [Neuro-sama](https://twitch.tv/vedal987) the AI VTuber on Twitch to play Among Us 
 - 💻 Currently maintaining [Submerged](https://github.com/SubmergedAmongUs/Submerged), a mod which introduces a new map with unique tasks and new gameplay mechanics to Among Us
@@ -24,12 +30,6 @@ I'm a passionate developer with experience in Unity game development and modding
 - Contributed to popular modding tool [Reactor](https://github.com/nuclearpowered/reactor)
 - Contributed to personal modding library [Laboratory](https://github.com/Among-Us-Modding/Laboratory) which was later open-sourced
 - Created an Electron launcher for Submerged which was used by content creators for faster setup and downloads
-
-### Subnautica Modder (2018-2020, 2023-Present)
-- 💻 Currently working on [Neurosama-Subnautica-Mod](https://github.com/alexejhero/neurosama-subnautica-mod), a mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
-- Maintained popular modding tools [QModManager](https://github.com/SubnauticaModding/QModManager) and [SMLHelper](https://github.com/SubnauticaModding/SMLHelper)
-- Created [various mods](https://github.com/Alexejhero/Subnautica-Mods) that improved and expanded the gameplay experience
-- Created [a website](https://github.com/SubnauticaModding/MOTY) for an annual event held in the Subnautica Modding community
 
 ### Discord Bot Developer (2019)
 - Created [Dlockly](https://github.com/Alexejhero/Dlockly), a scratch-like Discord bot creator, which won 1st place in the Productivity category in the [Discord Hack Week](https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92) event
