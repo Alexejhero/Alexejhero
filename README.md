@@ -17,14 +17,18 @@ I'm a passionate developer with experience in Unity game development and modding
 - Pascal - [Inno Setup](https://jrsoftware.org/isinfo.php)
 
 ## 💼 Work and Projects
-### Subnautica Modder (2018-2020, 2023-Present)
+### Unity Developer and Modder (2023-Present)
+- 💻 Currently working on various top-secret projects
+- 💻 Currently working on an integration mod for [Who Wants To Be A Millionaire](https://store.steampowered.com/app/1356240/Who_Wants_To_Be_A_Millionaire) to allow [Neuro-sama the AI VTuber on Twitch](https://twitch.tv/vedal987) to play the game
+
+### [Subnautica](https://store.steampowered.com/app/264710/Subnautica/) & [Subnautica: Below Zero](https://store.steampowered.com/app/848450/Subnautica_Below_Zero/) Modder (2018-2020, 2023-Present)
 - 💻 Currently working on [Neurosama-Subnautica-Mod](https://github.com/alexejhero/neurosama-subnautica-mod), a mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
 - Maintained popular modding tools [QModManager](https://github.com/SubnauticaModding/QModManager) and [SMLHelper](https://github.com/SubnauticaModding/SMLHelper)
 - Created [various mods](https://github.com/Alexejhero/Subnautica-Mods) that improved and expanded the gameplay experience
 - Created [a website](https://github.com/SubnauticaModding/MOTY) for an annual event held in the Subnautica Modding community
 
-### Among Us Modder (2020-Present)
-- 💻 Currently working on [neuro-amongus](https://github.com/vedalai/neuro-amongus), a mod which will allow [Neuro-sama](https://twitch.tv/vedal987) the AI VTuber on Twitch to play Among Us 
+### [Among Us](https://store.steampowered.com/app/945360/Among_Us/) Modder (2020-Present)
+- 💻 Currently working on [neuro-amongus](https://github.com/vedalai/neuro-amongus), a mod which will allow [Neuro-sama the AI VTuber on Twitch](https://twitch.tv/vedal987) to play Among Us 
 - 💻 Currently maintaining [Submerged](https://github.com/SubmergedAmongUs/Submerged), a mod which adds a new map with unique tasks and new gameplay mechanics to Among Us
 - Worked with many content creators to create [specialized mods](https://www.youtube.com/playlist?list=PL3ddDQ0FPgGbTsDCaYhTRj1R7DMzd05Wr) that bring innovative features to Among Us, enhancing the gaming experience for content creators and viewers
 - Contributed to popular modding tool [Reactor](https://github.com/nuclearpowered/reactor)
