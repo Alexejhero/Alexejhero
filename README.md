@@ -15,6 +15,7 @@ I'm a passionate developer with experience in Unity game development and modding
 - HTML - [EJS](https://ejs.co/)
 - CSS - [Sass](https://sass-lang.com/)
 - Pascal - [Inno Setup](https://jrsoftware.org/isinfo.php)
+- PHP
 
 ## 💼 Work and Projects
 ### Unity Developer and Modder (2023-Present)
