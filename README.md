@@ -19,7 +19,7 @@ I'm a passionate developer with experience in Unity game development and modding
 
 ## 💼 Work and Projects
 ### Unity Developer and Modder (2023-Present)
-- 💻 Currently working on various top-secret projects
+- 💻 Currently working on various closed-source projects
 - 💻 Currently working on an integration mod for [Who Wants To Be A Millionaire](https://store.steampowered.com/app/1356240/Who_Wants_To_Be_A_Millionaire) to allow [Neuro-sama the AI VTuber on Twitch](https://twitch.tv/vedal987) to play the game
 
 ### [Subnautica](https://store.steampowered.com/app/264710/Subnautica/) & [Subnautica: Below Zero](https://store.steampowered.com/app/848450/Subnautica_Below_Zero/) Modder (2018-2020, 2023-Present)
