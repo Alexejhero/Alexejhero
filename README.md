@@ -33,7 +33,7 @@ I'm a passionate developer with experience in Unity game development and modding
 - 💻 Currently maintaining [Submerged](https://github.com/SubmergedAmongUs/Submerged), a mod which adds a new map with unique tasks and new gameplay mechanics to Among Us
 - Worked with many content creators to create [specialized mods](https://www.youtube.com/playlist?list=PL3ddDQ0FPgGbTsDCaYhTRj1R7DMzd05Wr) that bring innovative features to Among Us, enhancing the gaming experience for content creators and viewers
 - Contributed to popular modding tool [Reactor](https://github.com/nuclearpowered/reactor)
-- Contributed to personal modding library [Laboratory](https://github.com/Among-Us-Modding/Laboratory)
+- Contributed to modding library [Laboratory](https://github.com/Among-Us-Modding/Laboratory)
 - Created an Electron launcher for [Submerged](https://github.com/SubmergedAmongUs/Submerged) which was used by content creators for faster setup and downloads
 
 ### Discord Bot Developer (2019)
