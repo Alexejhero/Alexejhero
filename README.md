@@ -24,7 +24,7 @@ I'm a passionate developer with experience in Unity game development and modding
 
 ### [Subnautica](https://store.steampowered.com/app/264710/Subnautica/) & [Subnautica: Below Zero](https://store.steampowered.com/app/848450/Subnautica_Below_Zero/) Modder (2018-2020, 2023-Present)
 - 💻 Currently working on [Neurosama-Subnautica-Mod](https://github.com/alexejhero/neurosama-subnautica-mod), a mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
-- Maintained popular modding tools [QModManager](https://github.com/SubnauticaModding/QModManager) and [SMLHelper](https://github.com/SubnauticaModding/SMLHelper)
+- Maintained popular modding tools [QModManager](https://github.com/SubnauticaModding/QModManager) and [Nautilus](https://github.com/SubnauticaModding/SMLHelper)
 - Created [various mods](https://github.com/Alexejhero/Subnautica-Mods) that improved and expanded the gameplay experience
 - Created [a website](https://github.com/SubnauticaModding/MOTY) for an annual event held in the Subnautica Modding community
 
