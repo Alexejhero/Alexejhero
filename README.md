@@ -5,6 +5,7 @@ I'm a passionate developer with experience in Unity game development and modding
 ## 📫 Contact Info
 - Email: [alexejhero@gmail.com](mailto:alexejhero@gmail.com)
 - Discord: `alexejhero`
+- Twitch: [AlexejheroDev](https://twitch.tv/AlexejheroDev)
 
 ## 🛠️ Languages, Frameworks and Tools
 - C# - [Unity](https://unity.com/), [Harmony](https://github.com/pardeike/harmony)
@@ -13,7 +14,6 @@ I'm a passionate developer with experience in Unity game development and modding
 - Java
 - C++
 - HTML - [EJS](https://ejs.co/)
-- CSS - [Sass](https://sass-lang.com/)
 - Pascal - [Inno Setup](https://jrsoftware.org/isinfo.php)
 
 ## 🤝 Notable Collaborations
