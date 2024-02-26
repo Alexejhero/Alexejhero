@@ -6,6 +6,7 @@ I'm a passionate developer with experience in Unity game development and modding
 - Email: [alexejhero@gmail.com](mailto:alexejhero@gmail.com)
 - Discord: `alexejhero`
 - Twitch: [AlexejheroDev](https://twitch.tv/AlexejheroDev)
+- itch.io: [Alexejhero](https://Alexejhero.itch.io)
 
 ## 🛠️ Languages, Frameworks and Tools
 - C# - [Unity](https://unity.com/), [Harmony](https://github.com/pardeike/harmony)
