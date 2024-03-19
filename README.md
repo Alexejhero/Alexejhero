@@ -1,6 +1,6 @@
 # Hi there, I'm Alexejhero! 👋
 
-I'm a passionate developer with experience in Unity game development and modding, and Discord bot development. I love creating fun and engaging experiences for players and content creators alike. Feel free to reach out if you have any questions or want me to work on sometihng for you.
+I'm a passionate Unity game developer and modder. I love creating fun and engaging experiences for players and content creators alike. Feel free to reach out if you have any questions or want me to work on something for you.
 
 ## 📫 Contact Info
 - Email: [alexejhero@gmail.com](mailto:alexejhero@gmail.com)
