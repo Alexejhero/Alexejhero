@@ -16,6 +16,7 @@ I'm a passionate Unity game developer and modder. I love creating fun and engagi
 - C++
 - HTML - [EJS](https://ejs.co/)
 - Pascal - [Inno Setup](https://jrsoftware.org/isinfo.php)
+- Docker
 
 ## 🤝 Notable Collaborations
 
@@ -43,7 +44,7 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 - Created an integration mod for [Who Wants To Be A Millionaire](https://store.steampowered.com/app/1356240/Who_Wants_To_Be_A_Millionaire) to allow [Neuro-sama the AI VTuber on Twitch](https://twitch.tv/vedal987) to play the game
 
 ### [Subnautica](https://store.steampowered.com/app/264710/Subnautica/) & [Subnautica: Below Zero](https://store.steampowered.com/app/848450/Subnautica_Below_Zero/) Modder (2018-2020, 2023-Present)
-- ⏸ (Project paused) Currently working on [Neurosama-Subnautica-Mod](https://github.com/alexejhero/neurosama-subnautica-mod), a mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
+- 💻 Currently working on [Neurosama-Subnautica-Mod](https://github.com/alexejhero/neurosama-subnautica-mod), a mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
 - Maintained popular modding tools [QModManager](https://github.com/SubnauticaModding/QModManager) and [Nautilus](https://github.com/SubnauticaModding/SMLHelper)
 - Created [various mods](https://github.com/Alexejhero/Subnautica-Mods) that improved and expanded the gameplay experience
 - Created [a website](https://github.com/SubnauticaModding/MOTY) for an annual event held in the Subnautica Modding community
