@@ -8,16 +8,6 @@ I'm a passionate Unity game developer and modder. I love creating fun and engagi
 - Twitch: [AlexejheroDev](https://twitch.tv/AlexejheroDev)
 - itch.io: [Alexejhero](https://Alexejhero.itch.io)
 
-## 🛠️ Languages, Frameworks and Tools
-- ***C# - [Unity](https://unity.com/), [Harmony](https://github.com/pardeike/harmony)***
-- ***JavaScript/TypeScript - [Node.js](https://nodejs.org/), [discord.js](https://github.com/discordjs/discord.js), [Electron](https://github.com/electron/electron), [Twitch Extension API](https://www.npmjs.com/package/@types/twitch-ext)***
-- ***Docker***
-- Python
-- Java
-- C++
-- HTML - [EJS](https://ejs.co/)
-- Pascal - [Inno Setup](https://jrsoftware.org/isinfo.php)
-
 ## 🤝 Notable Collaborations
 
 ### [vedal987](https://www.twitch.tv/vedal987) - Unity Development and Modding & Twitch Extension Development (2023-Present)
@@ -62,3 +52,13 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 
 ### Discord Bot Developer (2019)
 - [*Dlockly*](https://github.com/Alexejhero/Dlockly) - A scratch-like Discord bot creator which won 1st place in the Productivity category in the [Discord Hack Week](https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92) event
+
+## 🛠️ Languages, Frameworks and Tools
+- ***C# - [Unity](https://unity.com/), [Harmony](https://github.com/pardeike/harmony)***
+- ***JavaScript/TypeScript - [Node.js](https://nodejs.org/), [discord.js](https://github.com/discordjs/discord.js), [Electron](https://github.com/electron/electron), [Twitch Extension API](https://www.npmjs.com/package/@types/twitch-ext)***
+- ***Docker***
+- Python
+- Java
+- C++
+- HTML - [EJS](https://ejs.co/)
+- Pascal - [Inno Setup](https://jrsoftware.org/isinfo.php)
