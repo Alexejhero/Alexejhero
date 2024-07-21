@@ -32,6 +32,8 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 - [*Swarm Control*](https://github.com/vedalai/swarm-control) - Twitch extension allowing viewers to purchase in-game redeems with bits, made for [vedal987](https://twitch.tv/vedal987)
 
 ### Unity Developer and Modder (2023-Present)
+- [*Unity C# 11*](https://github.com/Alexejhero/Unity-CSharp11) - A Unity package which changes the C# language version to 11 and adds support for file-scoped namespaces
+- [*Menu Item Overrides*](https://github.com/Alexejhero/Menu-Item-Overrides) - A Unity package for hiding or moving menu items added by other packages
 - [*Tutel Quest*](https://alexejhero.itch.io/tutelquest) - A game jam game which won first place in the [Neuro-sama Birthday Game Jam](https://itch.io/jam/neurosama-birthday-game-jam)
 - *TextMeshPro Twitch Emotes* _(closed source)_ - Unity package for rendering Twitch, 7TV and BTTV emotes in TextMeshPro
 - *Unity Discord Audio* _(closed source)_ - Unity packages for sending and receiving Discord audio using bot accounts 
