@@ -1,6 +1,8 @@
-# Hi there, I'm Alexejhero! 👋
+# Hi there, I'm Alex! 👋
 
-I'm a passionate Unity game developer and modder. I love creating fun and engaging experiences for players and content creators alike. Feel free to reach out if you have any questions or want me to work on something for you.
+I'm a Unity game developer and modder and a Twitch extension developer. I work with content creators to deliver engaging experiences for themselves and their audiences. 
+
+Please reach out if you have any questions, want me to work on something for you, or want access to one of my closed-source projects.
 
 ## 📫 Contact Info
 - Email: [alexejhero@gmail.com](mailto:alexejhero@gmail.com)
@@ -36,7 +38,7 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 - *Neuro-sama Millionaire Mod* _(closed source)_ - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
 - [*KTANE PiShock Mod*](https://github.com/Alexejhero/KTANE-PiShock-Mod/) - PiShock integration for Keep Talking and Nobody Explodes
 
-### Subnautica & Subnautica: Below Zero Modder (2018-2020, 2023-Present)
+### Subnautica & Subnautica: Below Zero Modder (2018-2020, 2023-2024)
 - [*Neuro-sama Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
 - [*QModManager*](https://github.com/SubnauticaModding/QModManager) _(long-term maintainer)_ - De facto Subnautica mod loader
 - [*Nautilus*](https://github.com/SubnauticaModding/SMLHelper) _(long-term maintainer)_ - De facto Subnautica modding library
