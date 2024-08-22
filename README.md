@@ -18,6 +18,9 @@ I have been working with vedal for around a year and a half now, on various game
 ### [MoreSidemen](https://www.youtube.com/@MoreSidemen) - Among Us Modding (2022)
 I worked with the Sidemen for one or two of their videos, such as [this one](https://www.youtube.com/watch?v=WEK25KcWRjs) which got 6 million views on YouTube.
 
+### [Hype Squad Gaming](https://www.youtube.com/@HypeSquadRoblox) - Among Us Modding (2022)
+I worked with Hype Squad on a handful of their videos, such as [this one](https://www.youtube.com/watch?v=LbAvl5dhy4s). 
+
 ### [GameToons Gaming](https://www.youtube.com/@GameToonsGaming) - Among Us Modding (2021-2022)
 I worked with GameToons for a couple of videos they did, I can't remember which ones exactly but one that I do remember is [this one](https://www.youtube.com/watch?v=jC9u2eB5FK4), which got 5 million views on YouTube. 
 
