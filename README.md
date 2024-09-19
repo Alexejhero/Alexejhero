@@ -40,7 +40,7 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 - [*Tutel Quest*](https://alexejhero.itch.io/tutelquest) - A game jam game which won first place in the [Neuro-sama Birthday Game Jam](https://itch.io/jam/neurosama-birthday-game-jam)
 - *TextMeshPro Twitch Emotes* _(closed source)_ - Unity package for rendering Twitch, 7TV and BTTV emotes in TextMeshPro
 - *Unity Discord Audio* _(closed source)_ - Unity packages for sending and receiving Discord audio using bot accounts 
-- *Neuro-sama Millionaire Mod* _(closed source)_ - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
+- [*Neuro-sama Millionaire Mod*](https://github.com/VedalAI/neuro-millionaire/) - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
 - [*KTANE PiShock Mod*](https://github.com/Alexejhero/KTANE-PiShock-Mod/) - PiShock integration for Keep Talking and Nobody Explodes
 
 ### Subnautica & Subnautica: Below Zero Modder (2018-2020, 2023-2024)
