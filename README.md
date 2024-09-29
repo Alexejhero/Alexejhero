@@ -44,7 +44,7 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 - [*KTANE PiShock Mod*](https://github.com/Alexejhero/KTANE-PiShock-Mod/) - PiShock integration for Keep Talking and Nobody Explodes
 
 ### Subnautica & Subnautica: Below Zero Modder (2018-2020, 2023-2024)
-- [*Neuro-sama Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
+- [*Vedal Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
 - [*QModManager*](https://github.com/SubnauticaModding/QModManager) _(long-term maintainer)_ - De facto Subnautica mod loader
 - [*Nautilus*](https://github.com/SubnauticaModding/SMLHelper) _(long-term maintainer)_ - De facto Subnautica modding library
 - [*Subnautica Mods*](https://github.com/Alexejhero/Subnautica-Mods) - Various Subnautica mods that improved and expanded the gameplay experience
