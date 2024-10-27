@@ -34,28 +34,32 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 ### Twitch Extension Developer (2024-Present)
 - [*Swarm Control*](https://github.com/vedalai/swarm-control) - Twitch extension allowing viewers to purchase in-game redeems with bits, made for [vedal987](https://twitch.tv/vedal987)
 
-### Unity Developer and Modder (2023-Present)
-- [*Unity C# 11*](https://github.com/Alexejhero/Unity-CSharp11) - A Unity package which changes the C# language version to 11 and adds support for file-scoped namespaces
-- [*Menu Item Overrides*](https://github.com/Alexejhero/Menu-Item-Overrides) - A Unity package for hiding or moving menu items added by other packages
-- [*Tutel Quest*](https://alexejhero.itch.io/tutelquest) - A game jam game which won first place in the [Neuro-sama Birthday Game Jam](https://itch.io/jam/neurosama-birthday-game-jam)
-- *TextMeshPro Twitch Emotes* _(closed source)_ - Unity package for rendering Twitch, 7TV and BTTV emotes in TextMeshPro
-- *Unity Discord Audio* _(closed source)_ - Unity packages for sending and receiving Discord audio using bot accounts 
-- [*Neuro-sama Millionaire Mod*](https://github.com/VedalAI/neuro-millionaire/) - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
+### Unity Modder (2023-Present)
+- 💻 *Neuro-sama Inscryption Integration* _(temporarily closed source)_ - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
+- 💻 *Neuro-sama Liar's Bar Integration* _(temporarily closed source)_ - Liar's Bar integration for [Neuro-sama](https://twitch.tv/vedal987)
+- [*Neuro-sama Millionaire Integration*](https://github.com/VedalAI/neuro-millionaire/) - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
+- [*Vedal Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
+- *Vedal Inscryption Mod* _(temporarily closed source)_ - Mod made for [vedal987](https://twitch.tv/vedal987)'s playthrough of Inscryption
 - [*KTANE PiShock Mod*](https://github.com/Alexejhero/KTANE-PiShock-Mod/) - PiShock integration for Keep Talking and Nobody Explodes
 
-### Subnautica & Subnautica: Below Zero Modder (2018-2020, 2023-2024)
-- [*Vedal Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
+### Unity Developer (2023-Present)
+- [*Unity C# 11*](https://github.com/Alexejhero/Unity-CSharp11) - A Unity package which changes the C# language version to 11 and adds support for file-scoped namespaces
+- [*Menu Item Overrides*](https://github.com/Alexejhero/Menu-Item-Overrides) - A Unity package for hiding or moving menu items added by other packages
+- *TextMeshPro Twitch Emotes* _(closed source)_ - Unity package for rendering Twitch, 7TV and BTTV emotes in TextMeshPro
+- *Unity Discord Audio* _(closed source)_ - Unity packages for sending and receiving Discord audio using bot accounts 
+- [*Tutel Quest*](https://alexejhero.itch.io/tutelquest) - A game jam game which won first place in the [Neuro-sama Birthday Game Jam](https://itch.io/jam/neurosama-birthday-game-jam)
+
+### Among Us Modder (2020-Present)
+- 💻 [*Submerged*](https://github.com/SubmergedAmongUs/Submerged) - A mod which adds a new map with unique tasks and new gameplay mechanics to Among Us
+- *Among Us Content Creator Mods* _(closed source)_ - A large variety of [specialized mods](https://www.youtube.com/playlist?list=PL3ddDQ0FPgGbTsDCaYhTRj1R7DMzd05Wr) created for content creators
+- [*Reactor*](https://github.com/nuclearpowered/reactor) _(contributor)_ - Popular Among Us modding tool
+- [*Laboratory*](https://github.com/Among-Us-Modding/Laboratory) _(co-author)_ - Among Us modding library for content creator mods
+
+### Subnautica & Subnautica: Below Zero Modder (2018-2020)
 - [*QModManager*](https://github.com/SubnauticaModding/QModManager) _(long-term maintainer)_ - De facto Subnautica mod loader
 - [*Nautilus*](https://github.com/SubnauticaModding/SMLHelper) _(long-term maintainer)_ - De facto Subnautica modding library
 - [*Subnautica Mods*](https://github.com/Alexejhero/Subnautica-Mods) - Various Subnautica mods that improved and expanded the gameplay experience
 - [*Subnautica MOTY*](https://github.com/SubnauticaModding/MOTY) - A website for the annual Modder of the Year event in the Subnautica Modding community
-
-### Among Us Modder (2020-Present)
-- [*Submerged*](https://github.com/SubmergedAmongUs/Submerged) - A mod which adds a new map with unique tasks and new gameplay mechanics to Among Us
-- [*Neuro-sama Among Us Mod*](https://github.com/vedalai/neuro-amongus) - Among Us integration for [Neuro-sama](https://twitch.tv/vedal987)
-- *Among Us Content Creator Mods* _(closed source)_ - A large variety of [specialized mods](https://www.youtube.com/playlist?list=PL3ddDQ0FPgGbTsDCaYhTRj1R7DMzd05Wr) created for content creators
-- [*Reactor*](https://github.com/nuclearpowered/reactor) _(contributor)_ - Popular Among Us modding tool
-- [*Laboratory*](https://github.com/Among-Us-Modding/Laboratory) _(co-author)_ - Among Us modding library for content creator mods
 
 ### Discord Bot Developer (2019)
 - [*Dlockly*](https://github.com/Alexejhero/Dlockly) - A scratch-like Discord bot creator which won 1st place in the Productivity category in the [Discord Hack Week](https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92) event
