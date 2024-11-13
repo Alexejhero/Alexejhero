@@ -36,7 +36,7 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 
 ### Unity Modder (2023-Present)
 - 💻 *Neuro-sama Inscryption Integration* _(temporarily closed source)_ - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
-- 💻 *Neuro-sama Liar's Bar Integration* _(temporarily closed source)_ - Liar's Bar integration for [Neuro-sama](https://twitch.tv/vedal987)
+- *Neuro-sama Liar's Bar Integration* _(closed source)_ - Liar's Bar integration for [Neuro-sama](https://twitch.tv/vedal987)
 - [*Neuro-sama Millionaire Integration*](https://github.com/VedalAI/neuro-millionaire/) - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
 - [*Vedal Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
 - *Vedal Inscryption Mod* _(temporarily closed source)_ - Mod made for [vedal987](https://twitch.tv/vedal987)'s playthrough of Inscryption
