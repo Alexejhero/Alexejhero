@@ -13,7 +13,7 @@ Please reach out if you have any questions, want me to work on something for you
 ## 🤝 Notable Collaborations
 
 ### [vedal987](https://www.twitch.tv/vedal987) - Unity Development and Modding & Twitch Extension Development (2023-Present)
-I have been working with vedal for around a year and a half now, on various game integrations for Neuro such as Among Us and Who Wants To Be A Millionaire, as well as internal Unity packages such as an emote renderer for TextMeshPro and a Discord bot. I also worked on a Twitch extension for his channel.
+I have been working with vedal for around a year and a half now, on various game integrations for Neuro such as Liar's Bar and Who Wants To Be A Millionaire, as well as internal Unity packages such as an emote renderer for TextMeshPro and a Discord bot. I also worked on a Twitch extension for his channel.
 
 ### [MoreSidemen](https://www.youtube.com/@MoreSidemen) - Among Us Modding (2022)
 I worked with the Sidemen for one or two of their videos, such as [this one](https://www.youtube.com/watch?v=WEK25KcWRjs) which got 6 million views on YouTube.
@@ -33,6 +33,9 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 ## 💼 Work and Projects
 ### Twitch Extension Developer (2024-Present)
 - [*Swarm Control*](https://github.com/vedalai/swarm-control) - Twitch extension allowing viewers to purchase in-game redeems with bits, made for [vedal987](https://twitch.tv/vedal987)
+
+### Godot Modder (2024-Present)
+- 💻 *Neuro-sama Buckshot Roulette Integration* _(closed source)_ - Buckshot Roulette integration for [Neuro-sama](https://twitch.tv/vedal987)
 
 ### Unity Modder (2023-Present)
 - 💻 *Neuro-sama Inscryption Integration* _(temporarily closed source)_ - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
