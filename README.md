@@ -69,9 +69,10 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 
 ## 🛠️ Languages, Frameworks and Tools
 - ***C# - [Unity](https://unity.com/), [Harmony](https://github.com/pardeike/harmony)***
-- ***JavaScript/TypeScript - [Node.js](https://nodejs.org/), [discord.js](https://github.com/discordjs/discord.js), [Electron](https://github.com/electron/electron), [Twitch Extension API](https://www.npmjs.com/package/@types/twitch-ext)***
+- ***JavaScript/TypeScript - [discord.js](https://github.com/discordjs/discord.js), [Twitch Extension API](https://www.npmjs.com/package/@types/twitch-ext)***
 - ***Docker***
 - Python
+- GDScript - [Godot](https://godotengine.org/)
 - Java
 - C++
 - HTML - [EJS](https://ejs.co/)
