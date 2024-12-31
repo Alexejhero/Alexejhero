@@ -8,12 +8,12 @@ Please reach out if you have any questions, want me to work on something for you
 - Email: [alexejhero@gmail.com](mailto:alexejhero@gmail.com)
 - Discord: `alexejhero`
 - Twitch: [AlexejheroDev](https://twitch.tv/AlexejheroDev)
-- itch.io: [Alexejhero](https://Alexejhero.itch.io)
+- itch.io: [Alexejhero](https://alexejhero.itch.io)
 
 ## 🤝 Notable Collaborations
 
 ### [vedal987](https://www.twitch.tv/vedal987) - Unity Development and Modding & Twitch Extension Development (2023-Present)
-I have been working with vedal for around a year and a half now, on various game integrations for Neuro such as Liar's Bar and Who Wants To Be A Millionaire, as well as internal Unity packages such as an emote renderer for TextMeshPro and a Discord bot. I also worked on a Twitch extension for his channel.
+I have been working with vedal for around two years now, on various game integrations for Neuro such as Liar's Bar and Who Wants To Be A Millionaire, as well as internal Unity packages such as an emote renderer for TextMeshPro and a Discord bot. I also worked on a Twitch extension for his channel.
 
 ### [MoreSidemen](https://www.youtube.com/@MoreSidemen) - Among Us Modding (2022)
 I worked with the Sidemen for one or two of their videos, such as [this one](https://www.youtube.com/watch?v=WEK25KcWRjs) which got 6 million views on YouTube.
@@ -31,16 +31,16 @@ I worked with 5up for almost 2 years, as a project manager and lead developer of
 I worked with Bakbak for a few months, creating mods for his Among Us videos on YouTube. Most of these videos reached around 1 million views, with [some of them](https://www.youtube.com/watch?v=VHcsSUHTBqs) reaching almost 2 million.
 
 ## 💼 Work and Projects
-### Twitch Extension Developer (2024-Present)
+### Developer at Vedal AI (2023-Present)
+- 💻 *Neuro-sama Inscryption Integration* _(temporarily closed source)_ - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
+- *Neuro-sama Buckshot Roulette Integration* - Buckshot Roulette integration for [Neuro-sama](https://twitch.tv/vedal987)
+- *Neuro-sama Liar's Bar Integration* - Liar's Bar integration for [Neuro-sama](https://twitch.tv/vedal987)
+- [*Neuro-sama Millionaire Integration*](https://github.com/VedalAI/neuro-millionaire/) - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
+- *TextMeshPro Twitch Emotes* - Unity package for rendering Twitch, 7TV and BTTV emotes in TextMeshPro
+- *Unity Discord Audio* - Unity packages for sending and receiving Discord audio using bot accounts
 - [*Swarm Control*](https://github.com/vedalai/swarm-control) - Twitch extension allowing viewers to purchase in-game redeems with bits, made for [vedal987](https://twitch.tv/vedal987)
 
-### Godot Modder (2024-Present)
-- 💻 *Neuro-sama Buckshot Roulette Integration* _(closed source)_ - Buckshot Roulette integration for [Neuro-sama](https://twitch.tv/vedal987)
-
 ### Unity Modder (2023-Present)
-- 💻 *Neuro-sama Inscryption Integration* _(temporarily closed source)_ - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
-- *Neuro-sama Liar's Bar Integration* _(closed source)_ - Liar's Bar integration for [Neuro-sama](https://twitch.tv/vedal987)
-- [*Neuro-sama Millionaire Integration*](https://github.com/VedalAI/neuro-millionaire/) - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
 - [*Vedal Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
 - *Vedal Inscryption Mod* _(temporarily closed source)_ - Mod made for [vedal987](https://twitch.tv/vedal987)'s playthrough of Inscryption
 - [*KTANE PiShock Mod*](https://github.com/Alexejhero/KTANE-PiShock-Mod/) - PiShock integration for Keep Talking and Nobody Explodes
@@ -48,8 +48,7 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 ### Unity Developer (2023-Present)
 - [*Unity C# 11*](https://github.com/Alexejhero/Unity-CSharp11) - A Unity package which changes the C# language version to 11 and adds support for file-scoped namespaces
 - [*Menu Item Overrides*](https://github.com/Alexejhero/Menu-Item-Overrides) - A Unity package for hiding or moving menu items added by other packages
-- *TextMeshPro Twitch Emotes* _(closed source)_ - Unity package for rendering Twitch, 7TV and BTTV emotes in TextMeshPro
-- *Unity Discord Audio* _(closed source)_ - Unity packages for sending and receiving Discord audio using bot accounts 
+- [*Fragmented*](https://alexejhero.itch.io/fragmented) - A submission to [Neuro-sama Game Jam 2](https://itch.io/jam/neuro/rate/3211896)
 - [*Tutel Quest*](https://alexejhero.itch.io/tutelquest) - A game jam game which won first place in the [Neuro-sama Birthday Game Jam](https://itch.io/jam/neurosama-birthday-game-jam)
 
 ### Among Us Modder (2020-Present)
