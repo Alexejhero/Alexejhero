@@ -1,4 +1,6 @@
-# Hi there, I'm Alex! 👋
+## 🗿 Hello
+
+I am Alex.
 
 I'm a Unity game developer and modder and a Twitch extension developer. I work with content creators to deliver engaging experiences for themselves and their audiences. 
 
@@ -7,7 +9,7 @@ Please reach out if you have any questions, want me to work on something for you
 ## 📫 Contact Info
 - Email: [alexejhero@gmail.com](mailto:alexejhero@gmail.com)
 - Discord: `alexejhero`
-- Twitch: [AlexejheroDev](https://twitch.tv/AlexejheroDev)
+- Twitch: [alexvoid](https://twitch.tv/alexvoid)
 - itch.io: [Alexejhero](https://alexejhero.itch.io)
 
 ## 🤝 Notable Collaborations
