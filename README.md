@@ -1,6 +1,3 @@
-Yes, it is me trying to open an account.
-
-
 ## 🗿 Hello
 
 I am Alex.
