@@ -15,7 +15,7 @@ Please reach out if you have any questions, want me to work on something for you
 ## 🤝 Notable Collaborations
 
 ### [vedal987](https://www.twitch.tv/vedal987) - Unity Development and Modding & Twitch Extension Development (2023-Present)
-I have been working with vedal for around two years now, on various game integrations for Neuro such as Liar's Bar and Who Wants To Be A Millionaire, as well as internal Unity packages such as an emote renderer for TextMeshPro and a Discord bot. I also worked on a Twitch extension for his channel.
+I have been working with vedal for around two and a half years now, on various game integrations for Neuro such as Liar's Bar and Who Wants To Be A Millionaire, as well as internal Unity packages such as an emote renderer for TextMeshPro and a Discord bot. I also worked on a Twitch extension for his channel.
 
 ### [MoreSidemen](https://www.youtube.com/@MoreSidemen) - Among Us Modding (2022)
 I worked with the Sidemen for one or two of their videos, such as [this one](https://www.youtube.com/watch?v=WEK25KcWRjs) which got 6 million views on YouTube.
@@ -34,7 +34,7 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 
 ## 💼 Work and Projects
 ### Developer at Vedal AI (2023-Present)
-- 💻 *Neuro-sama Inscryption Integration* _(temporarily closed source)_ - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
+- 💻 *Neuro-sama Inscryption Integration* - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
 - *Neuro-sama Buckshot Roulette Integration* - Buckshot Roulette integration for [Neuro-sama](https://twitch.tv/vedal987)
 - *Neuro-sama Liar's Bar Integration* - Liar's Bar integration for [Neuro-sama](https://twitch.tv/vedal987)
 - [*Neuro-sama Millionaire Integration*](https://github.com/VedalAI/neuro-millionaire/) - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
@@ -44,18 +44,18 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 
 ### Unity Modder (2023-Present)
 - [*Vedal Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
-- *Vedal Inscryption Mod* _(temporarily closed source)_ - Mod made for [vedal987](https://twitch.tv/vedal987)'s playthrough of Inscryption
+- *Vedal Inscryption Mod* - Mod made for [vedal987](https://twitch.tv/vedal987)'s playthrough of Inscryption
 - [*KTANE PiShock Mod*](https://github.com/Alexejhero/KTANE-PiShock-Mod/) - PiShock integration for Keep Talking and Nobody Explodes
 
 ### Unity Developer (2023-Present)
 - [*Unity C# 11*](https://github.com/Alexejhero/Unity-CSharp11) - A Unity package which changes the C# language version to 11 and adds support for file-scoped namespaces
 - [*Menu Item Overrides*](https://github.com/Alexejhero/Menu-Item-Overrides) - A Unity package for hiding or moving menu items added by other packages
-- [*Fragmented*](https://alexejhero.itch.io/fragmented) - A submission to [Neuro-sama Game Jam 2](https://itch.io/jam/neuro/rate/3211896)
+- [*Fragmented*](https://alexejhero.itch.io/fragmented) - A game jam game which got fifth place in [Neuro-sama Game Jam 2](https://itch.io/jam/neuro/rate/3211896)
 - [*Tutel Quest*](https://alexejhero.itch.io/tutelquest) - A game jam game which won first place in the [Neuro-sama Birthday Game Jam](https://itch.io/jam/neurosama-birthday-game-jam)
 
 ### Among Us Modder (2020-Present)
 - 💻 [*Submerged*](https://github.com/SubmergedAmongUs/Submerged) - A mod which adds a new map with unique tasks and new gameplay mechanics to Among Us
-- *Among Us Content Creator Mods* _(closed source)_ - A large variety of [specialized mods](https://www.youtube.com/playlist?list=PL3ddDQ0FPgGbTsDCaYhTRj1R7DMzd05Wr) created for content creators
+- *Among Us Content Creator Mods* - A large variety of [specialized mods](https://www.youtube.com/playlist?list=PL3ddDQ0FPgGbTsDCaYhTRj1R7DMzd05Wr) created for content creators
 - [*Reactor*](https://github.com/nuclearpowered/reactor) _(contributor)_ - Popular Among Us modding tool
 - [*Laboratory*](https://github.com/Among-Us-Modding/Laboratory) _(co-author)_ - Among Us modding library for content creator mods
 
@@ -67,14 +67,3 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 
 ### Discord Bot Developer (2019)
 - [*Dlockly*](https://github.com/Alexejhero/Dlockly) - A scratch-like Discord bot creator which won 1st place in the Productivity category in the [Discord Hack Week](https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92) event
-
-## 🛠️ Languages, Frameworks and Tools
-- ***C# - [Unity](https://unity.com/), [Harmony](https://github.com/pardeike/harmony)***
-- ***JavaScript/TypeScript - [discord.js](https://github.com/discordjs/discord.js), [Twitch Extension API](https://www.npmjs.com/package/@types/twitch-ext)***
-- ***Docker***
-- Python
-- GDScript - [Godot](https://godotengine.org/)
-- Java
-- C++
-- HTML - [EJS](https://ejs.co/)
-- Pascal - [Inno Setup](https://jrsoftware.org/isinfo.php)
