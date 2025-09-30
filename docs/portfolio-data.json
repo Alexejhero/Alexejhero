@@ -1,8 +1,5 @@
 {
     "profile": {
-        "name": "alexvoid",
-        "avatar": "https://avatars.githubusercontent.com/u/32238504?v=4",
-        "footerName": "alexvoid",
         "contacts": [
             {
                 "type": "email",
@@ -16,14 +13,12 @@
             {
                 "type": "github",
                 "label": "github.com/alexejhero",
-                "href": "https://github.com/alexejhero",
-                "external": true
+                "href": "https://github.com/alexejhero"
             },
             {
                 "type": "twitch",
                 "label": "twitch.tv/alexvoid",
-                "href": "https://twitch.tv/alexvoid",
-                "external": true
+                "href": "https://twitch.tv/alexvoid"
             }
         ]
     },

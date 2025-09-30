@@ -160,10 +160,8 @@ const renderContact = (contacts = []) => {
 
         if (item.href) {
             element.href = item.href;
-            if (item.external) {
-                element.target = '_blank';
-                element.rel = 'noreferrer noopener';
-            }
+            element.target = '_blank';
+            element.rel = 'noreferrer noopener';
         }
 
         element.append(createIcon(item.type));
@@ -176,34 +174,8 @@ const renderContact = (contacts = []) => {
     });
 };
 
-const renderProfile = (profile) => {
-    const avatar = document.getElementById('avatar');
-    const username = document.getElementById('username');
-    const footerName = document.getElementById('foot-name');
-    const yearTarget = document.querySelector('[data-year]');
-
-    if (avatar && profile.avatar) {
-        avatar.src = profile.avatar;
-        avatar.alt = profile.avatarAlt || 'Profile photo';
-    }
-
-    if (username) {
-        username.textContent = profile.name || '';
-    }
-
-    if (footerName) {
-        footerName.textContent = profile.footerName || profile.name || '';
-    }
-
-    if (yearTarget) {
-        yearTarget.textContent = new Date().getFullYear();
-    }
-
-    renderContact(profile.contacts);
-};
-
 const renderPortfolio = (data) => {
-    renderProfile(data.profile || {});
+    renderContact(data.profile.contacts);
 
     const categoriesContainer = document.getElementById('categories');
     if (!categoriesContainer) return;
