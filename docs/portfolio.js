@@ -6,7 +6,8 @@ const iconMap = {
     github: 'bi-github',
     nexusmods: 'icon-nexusmods',
     itchio: 'fa-brands fa-itch-io',
-    award: 'bi-award-fill'
+    award: 'bi-award-fill',
+    web: "bi-globe"
 };
 
 const select = (selector, root = document) => root.querySelector(selector);

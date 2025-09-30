@@ -233,7 +233,7 @@
                 {
                     "title": "Subnautica Modder of the Year",
                     "summary": "Community awards site for Subnautica modders",
-                    "bgIcon": "github",
+                    "bgIcon": "web",
                     "client": {
                         "name": "Solo Project"
                     },
