@@ -276,10 +276,6 @@ h2 {
     transform: translateY(-2px);
 }
 
-.tile:focus-within {
-    outline: 2px solid var(--brand);
-}
-
 .bg {
     position: absolute;
     inset: 0;
