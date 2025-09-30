@@ -5,6 +5,7 @@ const iconMap = {
     twitch: 'bi-twitch',
     github: 'bi-github',
     nexusmods: 'icon-nexusmods',
+    itchio: 'fa-brands fa-itch-io',
     award: 'bi-award-fill'
 };
 
@@ -82,9 +83,6 @@ const renderLinks = (container, links = []) => {
     links.forEach((link) => {
         const anchor = document.createElement('a');
         anchor.className = 'btn';
-        if (link.type === 'award') {
-            anchor.classList.add('award');
-        }
         anchor.href = link.url;
         anchor.target = '_blank';
         anchor.rel = 'noreferrer noopener';
