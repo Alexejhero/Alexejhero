@@ -4,7 +4,7 @@ const iconMap = {
     youtube: 'bi-youtube',
     twitch: 'bi-twitch',
     github: 'bi-github',
-    nexusmods: 'bi-link-45deg',
+    nexusmods: 'icon-nexusmods',
     award: 'bi-award-fill'
 };
 

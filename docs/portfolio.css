@@ -195,6 +195,14 @@ body {
     line-height: 1;
 }
 
+.icon-nexusmods {
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+    mask: url('./images/nexusmods.svg') no-repeat center / contain;
+    -webkit-mask: url('./images/nexusmods.svg') no-repeat center / contain;
+}
+
 .contact .icon {
     font-size: 18px;
 }
