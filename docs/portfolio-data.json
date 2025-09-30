@@ -51,42 +51,6 @@
                     ]
                 },
                 {
-                    "title": "Among Us Mods",
-                    "bg": "https://img.youtube.com/vi/ebKc6-Jr0Bk/maxresdefault.jpg",
-                    "summary": "Custom mods for GameToons Gaming",
-                    "details": "A few custom mods created for GameToons Gaming's modded Among Us videos, which have reached millions of views.",
-                    "client": {
-                        "name": "GameToons Gaming",
-                        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l9lJEX6kATC44Qr5dH8fsZoaJdLAfEH6S1TgbOHi4aLA=s160-c-k-c0x00ffffff-no-rj"
-                    },
-                    "date": "2021-2022",
-                    "links": [
-                        {
-                            "label": "Playlist",
-                            "url": "https://www.youtube.com/playlist?list=PL3ddDQ0FPgGarvkUISPIkn6QVEXZ8Mnwy",
-                            "type": "youtube"
-                        }
-                    ]
-                },
-                {
-                    "title": "Among Us Mods",
-                    "bg": "https://img.youtube.com/vi/yO6IyBCeosU/maxresdefault.jpg",
-                    "summary": "Custom mods for Bakbak",
-                    "details": "A collection of custom mods created for Bakbak's modded Among Us videos, which have reached tens of millions of views.",
-                    "client": {
-                        "name": "Bakbak",
-                        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k1Hmf3ax7jXjnfHIZHtk9KVtCf2W-48HA_3Mckwx_Z6Uw=s160-c-k-c0x00ffffff-no-rj"
-                    },
-                    "date": "2020-2021",
-                    "links": [
-                        {
-                            "label": "Playlist",
-                            "url": "https://www.youtube.com/playlist?list=PL3ddDQ0FPgGa3J1jxiuYPiEq1SAolQy0o",
-                            "type": "youtube"
-                        }
-                    ]
-                },
-                {
                     "title": "Nautilus",
                     "bg": "https://staticdelivery.nexusmods.com/mods/1155/images/thumbnails/1262/1262-1714509370-331467230.png",
                     "summary": "Largest modding library for Subnautica",
@@ -137,6 +101,60 @@
                             "label": "NexusMods (Subnautica: Below Zero)",
                             "url": "https://www.nexusmods.com/subnauticabelowzero/mods/1",
                             "type": "nexusmods"
+                        }
+                    ]
+                },
+                {
+                    "title": "Among Us Mods",
+                    "bg": "https://img.youtube.com/vi/ebKc6-Jr0Bk/maxresdefault.jpg",
+                    "summary": "Custom mods for GameToons Gaming",
+                    "details": "A few custom mods created for GameToons Gaming's modded Among Us videos, which have reached millions of views.",
+                    "client": {
+                        "name": "GameToons Gaming",
+                        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l9lJEX6kATC44Qr5dH8fsZoaJdLAfEH6S1TgbOHi4aLA=s160-c-k-c0x00ffffff-no-rj"
+                    },
+                    "date": "2021-2022",
+                    "links": [
+                        {
+                            "label": "Playlist",
+                            "url": "https://www.youtube.com/playlist?list=PL3ddDQ0FPgGarvkUISPIkn6QVEXZ8Mnwy",
+                            "type": "youtube"
+                        }
+                    ]
+                },
+                {
+                    "title": "Among Us Mods",
+                    "bg": "https://img.youtube.com/vi/yO6IyBCeosU/maxresdefault.jpg",
+                    "summary": "Custom mods for Bakbak",
+                    "details": "A collection of custom mods created for Bakbak's modded Among Us videos, which have reached tens of millions of views.",
+                    "client": {
+                        "name": "Bakbak",
+                        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k1Hmf3ax7jXjnfHIZHtk9KVtCf2W-48HA_3Mckwx_Z6Uw=s160-c-k-c0x00ffffff-no-rj"
+                    },
+                    "date": "2020-2021",
+                    "links": [
+                        {
+                            "label": "Playlist",
+                            "url": "https://www.youtube.com/playlist?list=PL3ddDQ0FPgGa3J1jxiuYPiEq1SAolQy0o",
+                            "type": "youtube"
+                        }
+                    ]
+                },
+                {
+                    "title": "Among Us Mods",
+                    "bg": "https://img.youtube.com/vi/BV-btDFAsOY/maxresdefault.jpg",
+                    "summary": "Custom mods for Hype Squad Gaming",
+                    "details": "A collection of custom mods created for Hype Squad Gaming's modded Among Us videos.",
+                    "client": {
+                        "name": "Hype Squad Gaming",
+                        "avatar": "https://yt3.googleusercontent.com/T5jNB_Ue5VcIldyIx2Uc16_DVoXRN2sGW2gXwGb_K7p96EUqKOUB6oaOU609AbB9TGM7VlmDBw=s160-c-k-c0x00ffffff-no-rj"
+                    },
+                    "date": "2022",
+                    "links": [
+                        {
+                            "label": "Playlist",
+                            "url": "https://www.youtube.com/watch?v=LbAvl5dhy4s&list=PL3ddDQ0FPgGbUKWA7Lnyos9v0xJ7MtwFG",
+                            "type": "youtube"
                         }
                     ]
                 }
