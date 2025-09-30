@@ -23,7 +23,7 @@
     box-shadow: 0 0 0 3px var(--notable-glow), var(--shadow);
 }
 
-.award-ribbon {
+.ribbon {
     position: absolute;
     top: 0;
     right: 0;
@@ -34,69 +34,43 @@
     overflow: hidden;
 }
 
-.notable-ribbon {
+.ribbon .ribbon-label {
     position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 3;
-    width: 140px;
-    height: 140px;
-    pointer-events: none;
-    overflow: hidden;
+    top: 22px;
+    right: -54px;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 49px 6px 48px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    box-shadow: 0 14px 32px rgba(0, 0, 0, .35);
+}
+
+.ribbon .ribbon-label .icon {
+    font-size: 20px;
+}
+
+.ribbon .label-text {
+    display: inline-block;
+    transform: translateY(1px);
 }
 
 .award-ribbon .ribbon-label {
-    position: absolute;
-    top: 22px;
-    right: -54px;
-    transform: rotate(45deg);
     background: linear-gradient(135deg, #fde047, var(--gold));
     color: #1a1625;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 49px 6px 48px;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: .12em;
-    text-transform: uppercase;
-    box-shadow: 0 14px 32px rgba(0, 0, 0, .35);
 }
 
 .notable-ribbon .ribbon-label {
-    position: absolute;
-    top: 22px;
-    right: -54px;
-    transform: rotate(45deg);
     background: linear-gradient(135deg, var(--notable), var(--brand));
     color: #0f172a;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 49px 6px 48px;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: .12em;
-    text-transform: uppercase;
-    box-shadow: 0 14px 32px rgba(0, 0, 0, .35);
 }
 
-.award-ribbon .ribbon-label .icon {
-    font-size: 20px;
-}
-
-.notable-ribbon .ribbon-label .icon {
-    font-size: 20px;
-}
-
-.award-ribbon .label-text {
-    display: inline-block;
-    transform: translateY(1px);
-}
-
-.notable-ribbon .label-text {
-    display: inline-block;
-    transform: translateY(1px);
+.notable-ribbon .ribbon-label {
+    translate: 4px 4px;
 }
 
 .award-note {
