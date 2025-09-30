@@ -105,12 +105,40 @@ const renderProject = (project, template) => {
     const fragment = template.content.cloneNode(true);
     const tile = select('.tile', fragment);
     const background = select('.bg', fragment);
+    const placeholder = select('.bg-placeholder', fragment);
 
     if (project.bg) {
         background.src = project.bg;
         background.hidden = false;
+        placeholder.hidden = true;
+        placeholder.innerHTML = '';
     } else {
+        background.removeAttribute('src');
         background.hidden = true;
+
+        const placeholderContent = (() => {
+            if (project.bgIcon) {
+                const icon = createIcon(project.bgIcon);
+                return icon;
+            }
+
+            if (project.bgText) {
+                const text = document.createElement('span');
+                text.textContent = project.bgText;
+                return text;
+            }
+
+            return null;
+        })();
+
+        placeholder.innerHTML = '';
+
+        if (placeholderContent) {
+            placeholder.append(placeholderContent);
+            placeholder.hidden = false;
+        } else {
+            placeholder.hidden = true;
+        }
     }
 
     applyText(select('.tile-title', fragment), project.title);

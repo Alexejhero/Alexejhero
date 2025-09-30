@@ -29,6 +29,7 @@
                 {
                     "title": "Submerged",
                     "bg": "",
+                    "bgText": "Submerged",
                     "summary": "Largest map mod for Among Us",
                     "details": "Submerged is a mod for Among Us which adds a new underwater map into the game, featuring new tasks, sabotages and mechanics.",
                     "client": {
@@ -232,6 +233,7 @@
                 {
                     "title": "Subnautica Modder of the Year",
                     "summary": "Community awards site for Subnautica modders",
+                    "bgIcon": "github",
                     "client": {
                         "name": "Solo Project"
                     },

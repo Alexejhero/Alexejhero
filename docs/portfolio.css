@@ -270,6 +270,31 @@ h2 {
     transition: filter .2s ease, transform .2s ease, opacity .2s ease;
 }
 
+.bg-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    font-size: clamp(28px, 8vw, 72px);
+    font-weight: 800;
+    text-align: center;
+    color: rgba(255, 255, 255, .25);
+    letter-spacing: .08em;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.bg-placeholder .icon {
+    font-size: clamp(42px, 10vw, 96px);
+    opacity: .65;
+}
+
+.bg-placeholder[hidden] {
+    display: none;
+}
+
 .scrim-base {
     position: absolute;
     inset: 0;
