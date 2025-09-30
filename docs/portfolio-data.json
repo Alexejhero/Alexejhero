@@ -1,0 +1,132 @@
+{
+    "profile": {
+        "contacts": [
+            {
+                "type": "email",
+                "label": "alexejhero@gmail.com",
+                "href": "mailto:alexejhero@gmail.com"
+            },
+            {
+                "type": "discord",
+                "label": "@alexejhero"
+            },
+            {
+                "type": "github",
+                "label": "github.com/alexejhero",
+                "href": "https://github.com/alexejhero"
+            },
+            {
+                "type": "twitch",
+                "label": "twitch.tv/alexvoid",
+                "href": "https://twitch.tv/alexvoid"
+            }
+        ]
+    },
+    "categories": [
+        {
+            "name": "Game Modding",
+            "projects": [
+                {
+                    "title": "SMLHelper",
+                    "bg": "https://staticdelivery.nexusmods.com/mods/1155/images/thumbnails/1262/1262-1714509370-331467230.png",
+                    "summary": "Modding library for Subnautica",
+                    "details": "Now known as Nautilus, SMLHelper was the main modding library for Subnautica and Subnautica: Below Zero, being used by thousands of mods and downloaded millions of times.",
+                    "client": {
+                        "name": "Open Source"
+                    },
+                    "date": "2018-2020",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/SubnauticaModding/SMLHelper",
+                            "type": "github"
+                        },
+                        {
+                            "label": "NexusMods (Subnautica)",
+                            "url": "https://www.nexusmods.com/subnautica/mods/1262",
+                            "type": "nexusmods"
+                        },
+                        {
+                            "label": "NexusMods (Subnautica: Below Zero)",
+                            "url": "https://www.nexusmods.com/subnauticabelowzero/mods/373",
+                            "type": "nexusmods"
+                        }
+                    ]
+                },
+                {
+                    "title": "QModManager",
+                    "bg": "https://subnauticamodding.wiki.gg/images/c/c5/QModManager_4.jpeg?60a142",
+                    "summary": "Mod loader for Subnautica",
+                    "details": "Now replaced by BepInEx, QModManager was the main mod loader for Subnautica and Subnautica: Below Zero, being used by thousands of mods and downloaded millions of times.",
+                    "client": {
+                        "name": "Open Source"
+                    },
+                    "date": "2018-2020",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/SubnauticaModding/QModManager",
+                            "type": "github"
+                        },
+                        {
+                            "label": "NexusMods (Subnautica)",
+                            "url": "https://www.nexusmods.com/subnautica/mods/201",
+                            "type": "nexusmods"
+                        },
+                        {
+                            "label": "NexusMods (Subnautica: Below Zero)",
+                            "url": "https://www.nexusmods.com/subnauticabelowzero/mods/1",
+                            "type": "nexusmods"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Discord Bots",
+            "projects": [
+                {
+                    "title": "Dlockly",
+                    "bg": "https://cdn.glitch.com/43f72134-88ea-4e7b-ace8-4a444b9aab78%2FIcon1.png?v=1561542756208",
+                    "summary": "Create your own Discord bot using a visual programming interface",
+                    "details": "Dlockly was a website that allowed users to create their own custom Discord bot using a visual programming interface similar to Scratch.",
+                    "award": {
+                        "text": "This project won 1st place in the Productivity category in the Discord Hack Week event.",
+                        "url": "https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92#:~:text=github.com-,Productivity,-1st%20Place%3A%20AlexejheroYTB"
+                    },
+                    "client": {
+                        "name": "Open Source"
+                    },
+                    "date": "Jul 2019",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/Alexejhero/Dlockly",
+                            "type": "github"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Website Development",
+            "projects": [
+                {
+                    "title": "Subnautica Modder of the Year",
+                    "summary": "Community awards site for Subnautica modders",
+                    "client": {
+                        "name": "Open Source"
+                    },
+                    "date": "2018-2020",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/SubnauticaModding/MOTY",
+                            "type": "github"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

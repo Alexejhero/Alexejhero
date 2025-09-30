@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Software developer creating tools and extensions for streamers."/>
+    <meta name="keywords" content="alexvoid, alexejhero, alexejheroytb, alexejherodev, modding, modder, developer, programmer, discord bots, web development, twitch extensions, streamer.bot"/>
+    <meta name="author" content="alexvoid"/>
+    <link rel="canonical" href="https://alexvoid.dev/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="alexvoid – Portfolio"/>
+    <meta property="og:description" content="Software developer creating tools and extensions for streamers."/>
+    <meta property="og:url" content="https://alexvoid.dev/"/>
+    <meta property="og:image" content="https://alexvoid.dev/images/avatar.jpg"/>
+    <meta property="og:site_name" content="alexvoid"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="alexvoid – Portfolio"/>
+    <meta name="twitter:description" content="Software developer creating tools and extensions for streamers."/>
+    <meta name="twitter:image" content="https://alexvoid.dev/images/avatar.jpg"/>
+    <meta name="twitter:creator" content="@alexvoiddev"/>
+    <title>alexvoid - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="portfolio.css"/>
+</head>
+<body>
+<main class="container">
+    <header class="header">
+        <div class="identity">
+            <img id="avatar" class="avatar" src="images/avatar.jpg" alt="Profile photo"/>
+            <div class="identity-text">
+                <h1 id="username" class="title">alexvoid</h1>
+                <div id="contact" class="contact" aria-label="Contact"></div>
+            </div>
+        </div>
+    </header>
+
+    <div id="categories"></div>
+</main>
+
+<template id="category-tpl">
+    <section>
+        <h2 class="category-title"></h2>
+        <div class="grid" role="list"></div>
+    </section>
+</template>
+
+<template id="tile-tpl">
+    <article class="tile" tabindex="0" role="listitem">
+        <img class="bg" alt=""/>
+        <div class="scrim-base" aria-hidden="true"></div>
+
+        <div class="award-ribbon" aria-hidden="true" hidden></div>
+
+        <div class="content">
+            <div>
+                <h3 class="tile-title"></h3>
+                <p class="summary"></p>
+            </div>
+
+            <div class="details-block">
+                <div class="client fade">
+                    <img class="client-avatar" alt="" hidden/>
+                    <div class="meta"></div>
+                </div>
+                <p class="award-note fade" hidden></p>
+                <p class="details fade"></p>
+                <div class="links fade"></div>
+            </div>
+        </div>
+    </article>
+</template>
+
+<script src="portfolio.js" defer></script>
+</body>
+</html>
