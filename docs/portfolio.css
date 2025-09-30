@@ -5,6 +5,9 @@
     --muted: #a7abb7;
     --ring: rgba(255, 255, 255, .12);
     --brand: #6366f1;
+    --notable: #38bdf8;
+    --notable-outline: rgba(56, 189, 248, .75);
+    --notable-glow: rgba(56, 189, 248, .16);
     --radius: 16px;
     --shadow: 0 10px 30px rgba(0, 0, 0, .25);
     --gold: #facc15;
@@ -15,7 +18,23 @@
     box-shadow: 0 0 0 3px rgba(250, 204, 21, .12), var(--shadow);
 }
 
+.tile.notable {
+    outline: 1.5px solid var(--notable-outline);
+    box-shadow: 0 0 0 3px var(--notable-glow), var(--shadow);
+}
+
 .award-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    width: 140px;
+    height: 140px;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.notable-ribbon {
     position: absolute;
     top: 0;
     right: 0;
@@ -44,11 +63,38 @@
     box-shadow: 0 14px 32px rgba(0, 0, 0, .35);
 }
 
+.notable-ribbon .ribbon-label {
+    position: absolute;
+    top: 22px;
+    right: -54px;
+    transform: rotate(45deg);
+    background: linear-gradient(135deg, var(--notable), var(--brand));
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 49px 6px 48px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    box-shadow: 0 14px 32px rgba(0, 0, 0, .35);
+}
+
 .award-ribbon .ribbon-label .icon {
     font-size: 20px;
 }
 
+.notable-ribbon .ribbon-label .icon {
+    font-size: 20px;
+}
+
 .award-ribbon .label-text {
+    display: inline-block;
+    transform: translateY(1px);
+}
+
+.notable-ribbon .label-text {
     display: inline-block;
     transform: translateY(1px);
 }
