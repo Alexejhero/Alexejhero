@@ -27,8 +27,30 @@
             "name": "Twitch Extensions and Plugins",
             "projects": [
                 {
+                    "title": "Subathon Timer",
+                    "summary": "",
+                    "bg": "",
+                    "details": "",
+                    "client": {
+                        "name": "CynoSquare",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/fbe3ec84-0f29-4a7d-8b05-df76c678ab1e-profile_image-300x300.png"
+                    },
+                    "date": "2025"
+                },
+                {
+                    "title": "Subathon Timer",
+                    "summary": "",
+                    "bg": "",
+                    "details": "",
+                    "client": {
+                        "name": "Rai_Byte",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/40553569-9a9e-4c07-889b-035d39e4f146-profile_image-300x300.png"
+                    },
+                    "date": "2025"
+                },
+                {
                     "title": "Swarm Control",
-                    "summary": "Allowing viewers to control the game",
+                    "summary": "Allowing Twitch viewers to control Subnautica",
                     "bg": "",
                     "details": "",
                     "notable": true,
@@ -359,7 +381,7 @@
                     "details": "Neuro can recount the past... only when there's enough room.",
                     "award": {
                         "text": "This project got 5th place out of 273 entries in Neuro-sama Game Jam 2.",
-                        "url": "https://itch.io/jam/neurosama-birthday-game-jam/results"
+                        "url": "https://itch.io/jam/neuro/results"
                     },
                     "client": {
                         "name": "Independent Project (Team)"
