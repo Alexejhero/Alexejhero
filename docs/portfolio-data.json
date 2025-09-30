@@ -24,12 +24,147 @@
     },
     "categories": [
         {
+            "name": "Twitch Extensions and Plugins",
+            "projects": [
+                {
+                    "title": "Swarm Control",
+                    "summary": "Allowing viewers to control the game",
+                    "bg": "",
+                    "details": "",
+                    "notable": true,
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2024",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/vedalai/swarm-control",
+                            "type": "github"
+                        },
+                        {
+                            "label": "Video",
+                            "url": "https://www.youtube.com/watch?v=dyaR8FzZ2fs",
+                            "type": "youtube"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Game Modding",
             "projects": [
                 {
+                    "title": "Neuro-sama UNO Integration",
+                    "summary": "Allowing Neuro to play UNO",
+                    "bg": "",
+                    "details": "",
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2025"
+                },
+                {
+                    "title": "Neuro-sama Inscryption Integration",
+                    "summary": "Allowing Neuro to play Inscryption",
+                    "bg": "",
+                    "details": "",
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2025"
+                },
+                {
+                    "title": "Neuro-sama Buckshot Roulette Integration",
+                    "summary": "Allowing Neuro to play Buckshot Roulette",
+                    "bg": "",
+                    "details": "",
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2024-2025"
+                },
+                {
+                    "title": "Neuro-sama Liar's Bar Integration",
+                    "summary": "Allowing Neuro to play Liar's Bar",
+                    "bg": "",
+                    "details": "",
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2024",
+                    "links": [
+                        {
+                            "label": "Video",
+                            "url": "https://www.youtube.com/watch?v=b1JWLMF5bZo",
+                            "type": "youtube"
+                        }
+                    ]
+                },
+                {
+                    "title": "Neuro-sama Millionaire Integration",
+                    "summary": "Allowing Neuro to play Who Wants to Be a Millionaire?",
+                    "bg": "",
+                    "details": "",
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2024"
+                },
+                {
+                    "title": "Vedal Inscryption Mod",
+                    "summary": "Giving Neuro context of what is happening in-game",
+                    "bg": "",
+                    "details": "A mod created for Vedal's Inscryption playthrough, which gave Neuro-sama context of what was happening in-game.",
+                    "client": {
+                        "name": "Independent Project (Team)"
+                    },
+                    "date": "2024"
+                },
+                {
+                    "title": "KTANE PiShock Mod",
+                    "summary": "PiShock integration for Keep Talking and Nobody Explodes",
+                    "bg": "",
+                    "details": "A mod for Keep Talking and Nobody Explodes which integrates with the PiShock device to provide physical feedback during gameplay.",
+                    "client": {
+                        "name": "camila",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/c0fce1cd-63c4-47e9-aabe-47276cbb8524-profile_image-70x70.png"
+                    },
+                    "date": "2024-2025",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/Alexejhero/KTANE-PiShock-Mod",
+                            "type": "github"
+                        },
+                        {
+                            "label": "Video",
+                            "url": "https://www.youtube.com/watch?v=9KSUjLRNXZE",
+                            "type": "youtube"
+                        }
+                    ]
+                },
+                {
+                    "title": "Vedal Subnautica Mod",
+                    "summary": "The ermfish",
+                    "bg": "",
+                    "details": "A mod created for Vedal's Subnautica and Subnautica: Below Zero playthroughs, adding new creatures, items and mechanics to the game to create an entertaining experience for viewers.",
+                    "notable": true,
+                    "client": {
+                        "name": "Independent Project (Team)"
+                    },
+                    "date": "2023-2024"
+                },
+                {
                     "title": "Among Us Mods",
-                    "bg": "https://img.youtube.com/vi/WEK25KcWRjs/maxresdefault.jpg",
                     "summary": "Custom mods for More Sidemen",
+                    "bg": "https://img.youtube.com/vi/WEK25KcWRjs/maxresdefault.jpg",
                     "details": "A custom mod created for More Sidemen's modded Among Us video, which has reached over 7 million views. (I swear there was a second one, but I can't find it any more.)",
                     "client": {
                         "name": "More Sidemen",
@@ -46,8 +181,8 @@
                 },
                 {
                     "title": "Among Us Mods",
-                    "bg": "https://img.youtube.com/vi/BV-btDFAsOY/maxresdefault.jpg",
                     "summary": "Custom mods for Hype Squad Gaming",
+                    "bg": "https://img.youtube.com/vi/BV-btDFAsOY/maxresdefault.jpg",
                     "details": "A collection of custom mods created for Hype Squad Gaming's modded Among Us videos.",
                     "client": {
                         "name": "Hype Squad Gaming",
@@ -65,9 +200,10 @@
                 {
                     "title": "Laboratory",
                     "summary": "Modding library for Among Us",
+                    "bgIcon": "tool",
                     "details": "An Among Us modding library optimized for quickly creating content creator mods.",
                     "client": {
-                        "name": "Open Source"
+                        "name": "Open Source (Contributor)"
                     },
                     "date": "2022-2024",
                     "links": [
@@ -80,8 +216,8 @@
                 },
                 {
                     "title": "Among Us Mods",
-                    "bg": "https://img.youtube.com/vi/ebKc6-Jr0Bk/maxresdefault.jpg",
                     "summary": "Custom mods for GameToons Gaming",
+                    "bg": "https://img.youtube.com/vi/ebKc6-Jr0Bk/maxresdefault.jpg",
                     "details": "A few custom mods created for GameToons Gaming's modded Among Us videos, which have reached millions of views.",
                     "client": {
                         "name": "GameToons Gaming",
@@ -98,8 +234,8 @@
                 },
                 {
                     "title": "Submerged",
-                    "bg": "images/submerged.png",
                     "summary": "Largest map mod for Among Us",
+                    "bg": "images/submerged.png",
                     "details": "Submerged is a mod for Among Us which adds a new underwater map into the game, featuring new tasks, sabotages and mechanics.",
                     "notable": true,
                     "client": {
@@ -122,8 +258,8 @@
                 },
                 {
                     "title": "Among Us Mods",
-                    "bg": "https://img.youtube.com/vi/yO6IyBCeosU/maxresdefault.jpg",
                     "summary": "Custom mods for Bakbak",
+                    "bg": "https://img.youtube.com/vi/yO6IyBCeosU/maxresdefault.jpg",
                     "details": "A collection of custom mods created for Bakbak's modded Among Us videos, which have reached tens of millions of views.",
                     "client": {
                         "name": "Bakbak",
@@ -140,12 +276,12 @@
                 },
                 {
                     "title": "Nautilus",
-                    "bg": "https://staticdelivery.nexusmods.com/mods/1155/images/thumbnails/1262/1262-1714509370-331467230.png",
                     "summary": "Largest modding library for Subnautica",
+                    "bg": "https://staticdelivery.nexusmods.com/mods/1155/images/thumbnails/1262/1262-1714509370-331467230.png",
                     "details": "Previously known as SMLHelper, Nautilus is the main modding library for Subnautica and Subnautica: Below Zero, being used by thousands of mods and downloaded millions of times.",
                     "notable": true,
                     "client": {
-                        "name": "Open Source"
+                        "name": "Open Source (Maintainer)"
                     },
                     "date": "2018-2020",
                     "links": [
@@ -168,12 +304,12 @@
                 },
                 {
                     "title": "QModManager",
-                    "bg": "https://subnauticamodding.wiki.gg/images/c/c5/QModManager_4.jpeg?60a142",
                     "summary": "Largest mod loader for Subnautica",
+                    "bg": "https://subnauticamodding.wiki.gg/images/c/c5/QModManager_4.jpeg?60a142",
                     "details": "Now replaced by BepInEx, QModManager was the main mod loader for Subnautica and Subnautica: Below Zero, being used by thousands of mods and downloaded millions of times.",
                     "notable": true,
                     "client": {
-                        "name": "Open Source"
+                        "name": "Open Source (Maintainer)"
                     },
                     "date": "2018-2020",
                     "links": [
@@ -193,6 +329,23 @@
                             "type": "nexusmods"
                         }
                     ]
+                },
+                {
+                    "title": "Subnautica Mods",
+                    "summary": "Various mods for Subnautica that I created over time",
+                    "bgIcon": "",
+                    "details": "",
+                    "client": {
+                        "name": "Independent Project"
+                    },
+                    "date": "2017-2020",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/alexejhero/subnautica-mods",
+                            "type": "github"
+                        }
+                    ]
                 }
             ]
         },
@@ -201,15 +354,15 @@
             "projects": [
                 {
                     "title": "FRAGMENTED",
-                    "bg": "images/fragmented.png",
                     "summary": "Entry for Neuro-sama Game Jam 2",
+                    "bg": "images/fragmented.png",
                     "details": "Neuro can recount the past... only when there's enough room.",
                     "award": {
                         "text": "This project got 5th place out of 273 entries in Neuro-sama Game Jam 2.",
                         "url": "https://itch.io/jam/neurosama-birthday-game-jam/results"
                     },
                     "client": {
-                        "name": "Team Project"
+                        "name": "Independent Project (Team)"
                     },
                     "date": "2024",
                     "links": [
@@ -227,8 +380,8 @@
                 },
                 {
                     "title": "Tutel Quest",
-                    "bg": "images/tutelquest.png",
                     "summary": "Entry for the Neuro-sama Birthday Game Jam",
+                    "bg": "images/tutelquest.png",
                     "details": "Vedal awakens from a rough night, hearing Neuro call out in distress, then gets pulled into a mysterious digital world.",
                     "award": {
                         "text": "This project won 1st place out of 122 entries in the Neuro-sama Birthday Game Jam.",
@@ -236,7 +389,7 @@
                         "highlight": true
                     },
                     "client": {
-                        "name": "Team Project"
+                        "name": "Independent Project (Team)"
                     },
                     "date": "2023",
                     "links": [
@@ -255,12 +408,73 @@
             ]
         },
         {
+            "name": "Unity Editor Tooling",
+            "projects": [
+                {
+                    "title": "TextMeshPro Twitch Emotes",
+                    "summary": "Load first-party and third-party Twitch emotes directly into TextMeshPro",
+                    "bgIcon": "tool",
+                    "details": "",
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2024"
+                },
+                {
+                    "title": "Unity C# 11",
+                    "summary": "Use C# 11 features in Unity, including file-scoped namespaces",
+                    "bgIcon": "tool",
+                    "details": "A Unity Editor extension which allows developers to change the language version to C# 11 in order to use new features, and patch their editor to support file-scoped namespaces.",
+                    "client": {
+                        "name": "Independent Project"
+                    },
+                    "date": "2024",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/Alexejhero/Unity-CSharp11",
+                            "type": "github"
+                        }
+                    ]
+                },
+                {
+                    "title": "Unity Discord Audio",
+                    "summary": "A Discord voice chat client for Unity",
+                    "bgIcon": "tool",
+                    "details": "",
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2023-2025"
+                },
+                {
+                    "title": "Menu Item Overrides",
+                    "summary": "Change menu items from Unity or other packages",
+                    "bgIcon": "tool",
+                    "details": "A Unity Editor extension which allows developers to override menu items from Unity or other packages, decluttering their interface.",
+                    "client": {
+                        "name": "Independent Project"
+                    },
+                    "date": "2022-2024",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/Alexejhero/Menu-Item-Overrides",
+                            "type": "github"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Discord Bots",
             "projects": [
                 {
                     "title": "Dlockly",
-                    "bg": "https://cdn.glitch.com/43f72134-88ea-4e7b-ace8-4a444b9aab78%2FIcon1.png?v=1561542756208",
                     "summary": "Create your own Discord bot using a visual programming interface",
+                    "bg": "https://cdn.glitch.com/43f72134-88ea-4e7b-ace8-4a444b9aab78%2FIcon1.png?v=1561542756208",
                     "details": "Dlockly was a website that allowed users to create their own custom Discord bot using a visual programming interface similar to Scratch.",
                     "award": {
                         "text": "This project won 1st place in the Productivity category in the Discord Hack Week event.",
@@ -268,7 +482,7 @@
                         "highlight": true
                     },
                     "client": {
-                        "name": "Solo Project"
+                        "name": "Independent Project"
                     },
                     "date": "2019",
                     "links": [
@@ -288,8 +502,9 @@
                     "title": "Subnautica Modder of the Year",
                     "summary": "Community awards site for Subnautica modders",
                     "bgIcon": "web",
+                    "details": "A website created to host the Subnautica Modder of the Year awards, allowing users to vote for their favorite mods and modders of that year.",
                     "client": {
-                        "name": "Solo Project"
+                        "name": "Independent Project"
                     },
                     "date": "2018-2020",
                     "links": [

@@ -8,7 +8,8 @@ const iconMap = {
     itchio: 'fa-brands fa-itch-io',
     award: 'bi-award-fill',
     notable: 'bi-star-fill',
-    web: "bi-globe"
+    web: "bi-globe",
+    tool: "bi-tools"
 };
 
 const select = (selector, root = document) => root.querySelector(selector);
