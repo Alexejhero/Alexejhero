@@ -41,19 +41,23 @@ const renderAward = (fragment, award) => {
     const awardText = typeof award === 'string' ? award : award.text || '';
     const hasUrl = typeof award === 'object' && Boolean(award.url);
 
-    ribbon.innerHTML = '';
-    const ribbonLabel = document.createElement('div');
-    ribbonLabel.className = 'ribbon-label';
-    ribbonLabel.append(createIcon('award'));
+    if (award.highlight) {
+        ribbon.innerHTML = '';
+        const ribbonLabel = document.createElement('div');
+        ribbonLabel.className = 'ribbon-label';
+        ribbonLabel.append(createIcon('award'));
 
-    const ribbonText = document.createElement('span');
-    ribbonText.className = 'label-text';
-    ribbonText.textContent = 'Award';
-    ribbonLabel.append(ribbonText);
+        const ribbonText = document.createElement('span');
+        ribbonText.className = 'label-text';
+        ribbonText.textContent = 'Award';
+        ribbonLabel.append(ribbonText);
 
-    ribbon.append(ribbonLabel);
-    ribbon.hidden = false;
-    ribbon.title = awardText || 'Awarded project';
+        ribbon.append(ribbonLabel);
+        ribbon.hidden = false;
+        ribbon.title = awardText || 'Awarded project';
+
+        note.classList.add("gold");
+    }
 
     note.innerHTML = '';
     note.append(createIcon('award'));
@@ -115,7 +119,7 @@ const renderProject = (project, template) => {
     applyText(select('.summary', fragment), project.summary);
 
     renderAward(fragment, project.award);
-    if (project.award) {
+    if (project.award && project.award.highlight) {
         tile.classList.add('awarded');
     }
 

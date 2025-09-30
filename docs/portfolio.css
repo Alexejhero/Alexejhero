@@ -60,10 +60,16 @@
     padding: 8px 10px;
     border-radius: 10px;
     font-size: 13px;
+    color: var(--muted);
+    background: rgba(50, 50, 50, .70);
+    box-shadow: var(--shadow);
+    margin: 0;
+}
+
+.award-note.gold {
     color: var(--gold);
     background: rgba(250, 204, 21, .12);
     outline: 1px solid rgba(250, 204, 21, .18);
-    margin: 0;
 }
 
 .award-note[hidden] {

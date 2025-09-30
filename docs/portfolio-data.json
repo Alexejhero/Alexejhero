@@ -27,9 +27,32 @@
             "name": "Game Modding",
             "projects": [
                 {
+                    "title": "Submerged",
+                    "bg": "",
+                    "summary": "Largest map mod for Among Us",
+                    "details": "Submerged is a mod for Among Us which adds a new underwater map into the game, featuring new tasks, sabotages and mechanics.",
+                    "client": {
+                        "name": "5up",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/2b6916e0-000d-4490-942a-da5e561aaf48-profile_image-300x300.png"
+                    },
+                    "date": "2021-2022",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/SubmergedAmongUs/Submerged",
+                            "type": "github"
+                        },
+                        {
+                            "label": "Trailer",
+                            "url": "https://www.youtube.com/watch?v=gAX_mDOX4Pc",
+                            "type": "youtube"
+                        }
+                    ]
+                },
+                {
                     "title": "Nautilus",
                     "bg": "https://staticdelivery.nexusmods.com/mods/1155/images/thumbnails/1262/1262-1714509370-331467230.png",
-                    "summary": "Modding library for Subnautica",
+                    "summary": "Largest modding library for Subnautica",
                     "details": "Previously known as SMLHelper, Nautilus is the main modding library for Subnautica and Subnautica: Below Zero, being used by thousands of mods and downloaded millions of times.",
                     "client": {
                         "name": "Open Source"
@@ -56,7 +79,7 @@
                 {
                     "title": "QModManager",
                     "bg": "https://subnauticamodding.wiki.gg/images/c/c5/QModManager_4.jpeg?60a142",
-                    "summary": "Mod loader for Subnautica",
+                    "summary": "Largest mod loader for Subnautica",
                     "details": "Now replaced by BepInEx, QModManager was the main mod loader for Subnautica and Subnautica: Below Zero, being used by thousands of mods and downloaded millions of times.",
                     "client": {
                         "name": "Open Source"
@@ -83,6 +106,64 @@
             ]
         },
         {
+            "name": "Game Development",
+            "projects": [
+                {
+                    "title": "FRAGMENTED",
+                    "bg": "images/fragmented.png",
+                    "summary": "Entry for Neuro-sama Game Jam 2",
+                    "details": "Neuro can recount the past... only when there's enough room.",
+                    "award": {
+                        "text": "This project got 5th place out of 273 entries in Neuro-sama Game Jam 2.",
+                        "url": "https://itch.io/jam/neurosama-birthday-game-jam/results"
+                    },
+                    "client": {
+                        "name": "Team Project"
+                    },
+                    "date": "Dec 2023",
+                    "links": [
+                        {
+                            "label": "Itch.io",
+                            "url": "https://alexejhero.itch.io/tutelquest",
+                            "type": "itchio"
+                        },
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/Alexejhero/TutelQuest/",
+                            "type": "github"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tutel Quest",
+                    "bg": "images/tutelquest.png",
+                    "summary": "Entry for the Neuro-sama Birthday Game Jam",
+                    "details": "Vedal awakens from a rough night, hearing Neuro call out in distress, then gets pulled into a mysterious digital world.",
+                    "award": {
+                        "text": "This project won 1st place out of 122 entries in the Neuro-sama Birthday Game Jam.",
+                        "url": "https://itch.io/jam/neurosama-birthday-game-jam/results",
+                        "highlight": true
+                    },
+                    "client": {
+                        "name": "Team Project"
+                    },
+                    "date": "Dec 2023",
+                    "links": [
+                        {
+                            "label": "Itch.io",
+                            "url": "https://alexejhero.itch.io/tutelquest",
+                            "type": "itchio"
+                        },
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/Alexejhero/TutelQuest/",
+                            "type": "github"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Discord Bots",
             "projects": [
                 {
@@ -92,10 +173,11 @@
                     "details": "Dlockly was a website that allowed users to create their own custom Discord bot using a visual programming interface similar to Scratch.",
                     "award": {
                         "text": "This project won 1st place in the Productivity category in the Discord Hack Week event.",
-                        "url": "https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92#:~:text=github.com-,Productivity,-1st%20Place%3A%20AlexejheroYTB"
+                        "url": "https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92#:~:text=github.com-,Productivity,-1st%20Place%3A%20AlexejheroYTB",
+                        "highlight": true
                     },
                     "client": {
-                        "name": "Open Source"
+                        "name": "Solo Project"
                     },
                     "date": "Jul 2019",
                     "links": [
@@ -115,7 +197,7 @@
                     "title": "Subnautica Modder of the Year",
                     "summary": "Community awards site for Subnautica modders",
                     "client": {
-                        "name": "Open Source"
+                        "name": "Solo Project"
                     },
                     "date": "2018-2020",
                     "links": [
