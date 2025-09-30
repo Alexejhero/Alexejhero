@@ -63,6 +63,22 @@
                     ]
                 },
                 {
+                    "title": "Laboratory",
+                    "summary": "Modding library for Among Us",
+                    "details": "An Among Us modding library optimized for quickly creating content creator mods.",
+                    "client": {
+                        "name": "Open Source"
+                    },
+                    "date": "2022-2024",
+                    "links": [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/Among-Us-Modding/Laboratory",
+                            "type": "github"
+                        }
+                    ]
+                },
+                {
                     "title": "Among Us Mods",
                     "bg": "https://img.youtube.com/vi/ebKc6-Jr0Bk/maxresdefault.jpg",
                     "summary": "Custom mods for GameToons Gaming",
@@ -82,7 +98,7 @@
                 },
                 {
                     "title": "Submerged",
-                    "bg": "",
+                    "bg": "images/submerged.png",
                     "summary": "Largest map mod for Among Us",
                     "details": "Submerged is a mod for Among Us which adds a new underwater map into the game, featuring new tasks, sabotages and mechanics.",
                     "notable": true,
