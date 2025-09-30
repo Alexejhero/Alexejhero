@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>alexvoid</title>
+    <style>
+        :root {
+            --bg: #0b0c0f;
+            --panel: #0f1116;
+            --text: #e8e9ee;
+            --muted: #a7abb7;
+            --ring: rgba(255, 255, 255, .12);
+            --brand: #6366f1;
+            --radius: 16px;
+            --shadow: 0 10px 30px rgba(0, 0, 0, .25);
+            --gold: #facc15; /* golden accent */
+        }
+
+        /* Highlight awarded tiles */
+        .tile.awarded{
+            outline: 1.5px solid rgba(250,204,21,.75);
+            box-shadow:
+                    0 0 0 3px rgba(250,204,21,.12),
+                    var(--shadow);
+        }
+
+        /* Award ribbon banner (appears on hover/focus) */
+        .award-banner{
+            position:absolute; top:10px; left:10px; z-index:3;
+            display:inline-flex; align-items:center; gap:8px;
+            padding:6px 10px; border-radius:999px;
+            color: var(--gold);
+            background: rgba(0,0,0,.45);
+            outline: 1px solid rgba(250,204,21,.35);
+            font-size:12px; font-weight:700; letter-spacing:.2px;
+            opacity:0; transform: translateY(-4px);
+            transition: opacity .15s ease, transform .15s ease;
+            pointer-events:none;
+        }
+        .tile:hover .award-banner,
+        .tile:focus-within .award-banner{
+            opacity:1; transform: translateY(0);
+        }
+
+        /* Golden link pill for award links */
+        .btn.award{
+            background: rgba(250,204,21,.18);
+            color: var(--gold);
+            outline: 1px solid rgba(250,204,21,.45);
+        }
+        .btn.award:hover{
+            background: rgba(250,204,21,.28);
+        }
+
+        html, body {
+            height: 100%
+        }
+
+        body {
+            margin: 0;
+            font-family: ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+            /* Fixed decorative background (doesn't reset on scroll) */
+            background: radial-gradient(1200px 800px at 80% -10%, rgba(99, 102, 241, .12), transparent 60%),
+            radial-gradient(900px 600px at 10% -5%, rgba(16, 185, 129, .10), transparent 55%),
+            var(--bg);
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-attachment: fixed, fixed, fixed;
+            background-size: auto, auto, cover;
+            color: var(--text);
+            line-height: 1.45;
+        }
+
+        /* Tighter side margins -> wider cards */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 28px 12px
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            align-items: flex-start;
+            margin-bottom: 28px
+        }
+
+        @media (min-width: 720px) {
+            .header {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between
+            }
+        }
+
+        .identity {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            min-width: 0
+        }
+
+        .avatar {
+            width: 72px;
+            height: 72px;
+            border-radius: 20px;
+            object-fit: cover;
+            box-shadow: var(--shadow);
+            outline: 2px solid var(--ring)
+        }
+
+        .title {
+            font-weight: 800;
+            font-size: clamp(22px, 3vw, 28px);
+            letter-spacing: .2px;
+            margin: 0 0 8px
+        }
+
+        /* Simple contact row */
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            font-size: 14px;
+            color: var(--muted)
+        }
+
+        .contact a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px dashed transparent
+        }
+
+        .contact a:hover {
+            color: var(--text);
+            border-bottom-color: currentColor
+        }
+
+        .contact .item {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .icon {
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        /* Sections */
+        section {
+            margin: 30px 0
+        }
+
+        h2 {
+            font-size: clamp(18px, 2.6vw, 22px);
+            margin: 0 0 12px;
+            font-weight: 700
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns:1fr;
+            gap: 14px
+        }
+
+        @media (min-width: 720px) {
+            .grid {
+                grid-template-columns:repeat(2, 1fr)
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .grid {
+                grid-template-columns:repeat(3, 1fr)
+            }
+        }
+
+        @media (min-width: 1600px) {
+            .grid {
+                grid-template-columns:repeat(4, 1fr)
+            }
+        }
+
+        /* Project Card
+           - Image is absolutely positioned behind
+           - Title is ALWAYS visible
+           - On hover/focus: image dims+blurs, details fade in
+           - No internal scrollbars; card grows with content
+        */
+        .tile {
+            position: relative;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            outline: 1px solid var(--ring);
+            background: var(--panel); /* fallback while image loads */
+            transition: transform .15s ease, box-shadow .2s ease;
+            min-height: clamp(180px, 20vw, 240px); /* compact baseline; grows with content */
+        }
+
+        .tile:hover {
+            transform: translateY(-2px)
+        }
+
+        .tile:focus-within {
+            outline: 2px solid var(--brand)
+        }
+
+        /* Background image fills card height (which can grow) */
+        .bg {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            transition: filter .2s ease, transform .2s ease, opacity .2s ease;
+        }
+
+        /* Base scrim to keep text readable at all times */
+        .scrim-base {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            background: linear-gradient(120deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, .18) 50%, rgba(0, 0, 0, .12) 85%);
+            transition: background .2s ease;
+        }
+
+        /* Hover/focus: dim + blur image, strengthen scrim */
+        .tile:hover .bg, .tile:focus-within .bg {
+            filter: blur(2px) brightness(.65)
+        }
+
+        .tile:hover .scrim-base, .tile:focus-within .scrim-base {
+            background: linear-gradient(120deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, .30) 55%, rgba(0, 0, 0, .2) 90%);
+        }
+
+        /* Foreground content */
+        .content {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 16px;
+        }
+
+        /* Title: ALWAYS visible, wraps if needed */
+        .tile-title {
+            color: #fff;
+            font-weight: 700;
+            font-size: clamp(16px, 2.2vw, 20px);
+            margin: 0;
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+        }
+
+        /* Summary: visible (single-line feel but wraps); stays subtle */
+        .summary {
+            color: #fff;
+            font-size: 14px;
+            opacity: .95;
+            margin: 0;
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
+        /* Details area: fades in on hover/focus (no layout shift, because it's always in flow) */
+        .details-block {
+            display: grid;
+            gap: 10px;
+            margin-top: 4px;
+            color: #fff;
+        }
+
+        .details-block .fade {
+            opacity: 0;
+            transition: opacity .18s ease
+        }
+
+        .tile:hover .details-block .fade, .tile:focus-within .details-block .fade {
+            opacity: 1
+        }
+
+        .client {
+            display: flex;
+            align-items: center;
+            gap: 10px
+        }
+
+        .client img {
+            width: 34px;
+            height: 34px;
+            border-radius: 999px;
+            object-fit: cover;
+            outline: 2px solid rgba(255, 255, 255, .45)
+        }
+
+        .client .meta {
+            font-size: 13px;
+            opacity: .9;
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word
+        }
+
+        .details {
+            font-size: 14px;
+            line-height: 1.45;
+            margin: 0;
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 10px;
+            font-size: 13px;
+            background: rgba(255, 255, 255, .12);
+            color: #fff;
+            text-decoration: none;
+            outline: 1px solid rgba(255, 255, 255, .25)
+        }
+
+        .btn:hover {
+            background: rgba(255, 255, 255, .18)
+        }
+
+        footer {
+            margin-top: 36px;
+            padding-top: 12px;
+            border-top: 1px solid var(--ring);
+            color: var(--muted);
+            font-size: 14px
+        }
+    </style>
+</head>
+<body>
+<main class="container">
+    <!-- Header -->
+    <header class="header">
+        <div class="identity">
+            <img id="avatar" class="avatar" src="https://avatars.githubusercontent.com/u/32238504?v=4" alt="Profile photo"/>
+            <div style="min-width:0">
+                <h1 id="username" class="title">alexvoid</h1>
+                <!-- Simple contact row -->
+                <div class="contact" aria-label="Contact">
+                    <a id="emailLink" class="item" href="mailto:alexejhero@gmail.com">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="16" rx="2"/>
+                            <path d="M3 6l9 7L21 6"/>
+                        </svg>
+                        <span id="emailText">alexejhero@gmail.com</span>
+                    </a>
+                    <div id="discordLink" class="item" target="_blank" rel="noreferrer noopener">
+                        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M20.317 4.369A19.791 19.791 0 0 0 16.558 3c-.2.36-.43.85-.589 1.23a18.27 18.27 0 0 0-4-.01c-.16-.38-.39-.87-.59-1.23a19.736 19.736 0 0 0-3.758 1.37C3.24 9.1 2.375 13.64 2.73 18.11A19.89 19.89 0 0 0 7.06 20c.33-.45.62-.93.87-1.44-.48-.18-.94-.4-1.38-.65.12-.09.24-.18.36-.27a13.88 13.88 0 0 0 11.2 0c.12.09.24.18.36.27-.44.25-.9.47-1.38.65.25.51.54.99.87 1.44a19.83 19.83 0 0 0 4.33-1.89c.38-4.63-.45-9.14-2.62-13.31ZM9.5 15.26c-1.01 0-1.83-.96-1.83-2.13 0-1.17.81-2.13 1.83-2.13s1.83.96 1.83 2.13c0 1.17-.81 2.13-1.83 2.13Zm5 0c-1.01 0-1.83-.96-1.83-2.13 0-1.17.81-2.13 1.83-2.13s1.83.96 1.83 2.13c0 1.17-.81 2.13-1.83 2.13Z"/>
+                        </svg>
+                        <span id="discordText">@alexejhero</span>
+                    </div>
+                    <a id="githubLink" class="item" href="https://github.com/alexejhero" target="_blank" rel="noreferrer noopener">
+                        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.77.08-.75.08-.75 1.22.09 1.86 1.26 1.86 1.26 1.08 1.85 2.84 1.31 3.53 1 .11-.8.42-1.31.77-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.64.24 2.86.12 3.16.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.47 5.92.43.37.82 1.09.82 2.2v3.26c0 .32.22.69.82.58A12 12 0 0 0 12 .5Z"/>
+                        </svg>
+                        <span>github.com/alexejhero</span>
+                    </a>
+                    <a id="twitchLink" class="item" href="https://twitch.tv/alexvoid" target="_blank" rel="noreferrer noopener">
+                        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M3 2h18v12l-5 5h-4l-2 2H7v-2H3V2Zm3 2v12h4v2l2-2h4l3-3V4H6Zm9 8h-2V7h2v5Zm-5 0H8V7h2v5Z"/>
+                        </svg>
+                        <span>twitch.tv/alexvoid</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- No right-side pills -->
+    </header>
+
+    <!-- Categories container -->
+    <div id="categories"></div>
+
+    <footer>
+        <p id="copyright">© <span data-year></span> <span id="foot-name">alexvoid</span></p>
+    </footer>
+</main>
+
+<!-- Templates -->
+<template id="category-tpl">
+    <section>
+        <h2 class="category-title"></h2>
+        <div class="grid" role="list"></div>
+    </section>
+</template>
+
+<template id="tile-tpl">
+    <article class="tile" tabindex="0" role="listitem">
+        <!-- Background layers -->
+        <img class="bg" alt=""/>
+        <div class="scrim-base" aria-hidden="true"></div>
+
+        <div class="award-banner" hidden>
+            <!-- ribbon icon inserted by JS -->
+            <span class="award-text"></span>
+        </div>
+
+        <!-- Foreground content -->
+        <div class="content">
+            <div>
+                <h3 class="tile-title"></h3>
+                <p class="summary"></p>
+            </div>
+
+            <!-- Fades in on hover/focus; still part of flow so height fits -->
+            <div class="details-block">
+                <div class="client fade">
+                    <img class="client-avatar" alt="" hidden/>
+                    <div class="meta"></div>
+                </div>
+                <p class="details fade"></p>
+                <div class="links fade"></div>
+            </div>
+        </div>
+    </article>
+</template>
+
+<script>
+    const CATEGORIES = [
+        {
+            name: "Game Modding",
+            projects: [
+                {
+                    title: "SMLHelper",
+                    bg: "https://staticdelivery.nexusmods.com/mods/1155/images/thumbnails/1262/1262-1714509370-331467230.png",
+                    summary: "Modding library for Subnautica",
+                    details: "Now known as Nautilus, SMLHelper was the main modding library for Subnautica and Subnautica: Below Zero, being used by thousands of mods and downloaded millions of times.",
+                    client: {name: "Open Source"},
+                    date: "2018-2020",
+                    links: [
+                        {label: "GitHub", url: "https://github.com/SubnauticaModding/SMLHelper", type: "github"},
+                        {label: "NexusMods (Subnautica)", url: "https://www.nexusmods.com/subnautica/mods/1262", type: "nexusmods"},
+                        {label: "NexusMods (Subnautica: Below Zero)", url: "https://www.nexusmods.com/subnauticabelowzero/mods/373", type: "nexusmods"},
+                    ],
+                },
+                {
+                    title: "QModManager",
+                    bg: "https://subnauticamodding.wiki.gg/images/c/c5/QModManager_4.jpeg?60a142",
+                    summary: "Mod loader for Subnautica",
+                    details: "Now replaced by BepInEx, QModManager was the main mod loader for Subnautica and Subnautica: Below Zero, being used by thousands of mods and downloaded millions of times.",
+                    client: {name: "Open Source"},
+                    date: "2018-2020",
+                    links: [
+                        {label: "GitHub", url: "https://github.com/SubnauticaModding/QModManager", type: "github"},
+                        {label: "NexusMods (Subnautica)", url: "https://www.nexusmods.com/subnautica/mods/201", type: "nexusmods"},
+                        {label: "NexusMods (Subnautica: Below Zero)", url: "https://www.nexusmods.com/subnauticabelowzero/mods/1", type: "nexusmods"},
+                    ],
+                },
+            ],
+        },
+        {
+            name: "Discord Bots",
+            projects: [
+                {
+                    title: "Dlockly",
+                    bg: "https://cdn.glitch.com/43f72134-88ea-4e7b-ace8-4a444b9aab78%2FIcon1.png?v=1561542756208",
+                    summary: "Create your own Discord bot using a visual programming interface",
+                    details: "Dlockly was a website that allowed users to create their own custom Discord bot using a visual programming interface similar to Scratch.",
+                    award: "This project won 1st place in the Productivity category in the Discord Hack Week event.",
+                    client: {name: "Open Source"},
+                    date: "Jul 2019",
+                    links: [
+                        {label: "GitHub", url: "https://github.com/Alexejhero/Dlockly", type: "github"},
+                        {label: "Award", url: "https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92#:~:text=github.com-,Productivity,-1st%20Place%3A%20AlexejheroYTB", type: "award"}
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Website Development",
+            projects: [
+                {
+                    title: "Subnautica Modder of the Year",
+                    bg: "",
+                    summary: "Community awards site for Subnautica modders",
+                    details: "",
+                    client: {name: "Open Source"},
+                    date: "2018-2020",
+                    links: [
+                        {label: "GitHub", url: "https://github.com/SubnauticaModding/MOTY", type: "github"}
+                    ],
+                }
+            ]
+        }
+    ];
+
+    // ===============
+    // RENDER LOGIC
+    // ===============
+    const $ = (sel, root = document) => root.querySelector(sel);
+
+    function icon(type) {
+        const NS = 'http://www.w3.org/2000/svg';
+        const svg = document.createElementNS(NS, 'svg');
+        svg.setAttribute('viewBox', '0 0 24 24');
+        svg.setAttribute('aria-hidden', 'true');
+        svg.classList.add('icon');
+
+        const mkPath = d => {
+            const p = document.createElementNS(NS, 'path');
+            p.setAttribute('fill', 'currentColor');
+            p.setAttribute('d', d);
+            return p;
+        };
+
+        switch (type) {
+            case 'youtube':
+                svg.appendChild(mkPath('M23.5 6.2a4 4 0 0 0-2.8-2.8C18.8 3 12 3 12 3s-6.8 0-8.7.4A4 4 0 0 0 .5 6.2 41 41 0 0 0 0 12a41 41 0 0 0 .5 5.8 4 4 0 0 0 2.8 2.8C5.2 21 12 21 12 21s6.8 0 8.7-.4a4 4 0 0 0 2.8-2.8A41 41 0 0 0 24 12a41 41 0 0 0-.5-5.8zM9.7 15.5v-7l6 3.5-6 3.5z'));
+                break;
+            case 'twitch':
+                svg.appendChild(mkPath('M3 2h18v12l-5 5h-4l-2 2H7v-2H3V2Zm3 2v12h4v2l2-2h4l3-3V4H6Zm9 8h-2V7h2v5Zm-5 0H8V7h2v5Z'));
+                break;
+            case 'github':
+                svg.appendChild(mkPath('M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.77.08-.75.08-.75 1.22.09 1.86 1.26 1.86 1.26 1.08 1.85 2.84 1.31 3.53 1 .11-.8.42-1.31.77-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.64.24 2.86.12 3.16.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.47 5.92.43.37.82 1.09.82 2.2v3.26c0 .32.22 .69.82 .58A12 12 0 0 0 12 .5Z'));
+                break;
+            case 'nexusmods': {
+                const img = document.createElementNS(NS, 'image');
+                img.setAttributeNS('http://www.w3.org/1999/xlink', 'href',
+                    'https://cdn.jsdelivr.net/npm/simple-icons@15.16.0/icons/nexusmods.svg');
+                img.setAttribute('width', '24');
+                img.setAttribute('height', '24');
+                img.setAttribute('x', '0');
+                img.setAttribute('y', '0');
+                // Force white color with CSS filter (invert black -> white)
+                img.style.filter = 'invert(1) brightness(2)';
+                svg.appendChild(img);
+                break;
+            }
+            case 'award': {
+                // simple rosette/ribbon that inherits currentColor
+                svg.appendChild(mkPath('M12 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm-3.2 9.6L7 22l5-3 5 3-1.8-10.4A7.2 7.2 0 0 1 12 12a7.2 7.2 0 0 1-3.2-.4Z'));
+                break;
+            }
+            default:
+                svg.appendChild(mkPath('M3.9 12a8.1 8.1 0 1 1 16.2 0 8.1 8.1 0 0 1-16.2 0Zm4.2 0a3.9 3.9 0 1 0 7.8 0 3.9 3.9 0 0 0-7.8 0Z'));
+        }
+
+        return svg;
+    }
+
+    function render() {
+        document.querySelector('[data-year]').textContent = new Date().getFullYear();
+
+        // Categories
+        const wrap = document.getElementById('categories');
+        const catTpl = document.getElementById('category-tpl');
+        const tileTpl = document.getElementById('tile-tpl');
+        wrap.innerHTML = '';
+
+        CATEGORIES.forEach(cat => {
+            const cNode = catTpl.content.cloneNode(true);
+            cNode.querySelector('.category-title').textContent = cat.name;
+            const grid = cNode.querySelector('.grid');
+
+            cat.projects.forEach(p => {
+                const t = tileTpl.content.cloneNode(true);
+                t.querySelector('.bg').src = p.bg;
+                t.querySelector('.tile-title').textContent = p.title;
+                t.querySelector('.summary').textContent = p.summary;
+
+                const article = t.querySelector('.tile');
+                if (p.award) {
+                    article.classList.add('awarded');
+                    const banner = t.querySelector('.award-banner');
+                    const textEl = t.querySelector('.award-text');
+                    banner.prepend(icon('award'));
+                    textEl.textContent = typeof p.award === 'string' ? p.award : p.award.text || '';
+                    banner.hidden = false;
+                }
+
+                const meta = t.querySelector('.meta');
+                meta.textContent = [p.client?.name, p.date].filter(Boolean).join(' • ');
+                const avatar = t.querySelector('.client-avatar');
+                if (p.client?.avatar) {
+                    avatar.src = p.client.avatar;
+                    avatar.hidden = false;
+                }
+
+                t.querySelector('.details').textContent = p.details;
+
+                const links = t.querySelector('.links');
+                if (p.links && p.links.length) {
+                    p.links.forEach(l => {
+                        const a = document.createElement('a');
+                        a.className = 'btn';
+                        if (l.type === 'award') a.classList.add('award'); // golden pill
+                        a.href = l.url;
+                        a.target = '_blank';
+                        a.rel = 'noreferrer noopener';
+                        a.appendChild(icon(l.type));
+                        const span = document.createElement('span');
+                        span.textContent = l.label;
+                        a.appendChild(span);
+                        links.appendChild(a);
+                    });
+                }
+
+                grid.appendChild(t);
+            });
+
+            wrap.appendChild(cNode);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', render);
+</script>
+</body>
+</html>
