@@ -120,16 +120,16 @@
                     "client": {
                         "name": "Team Project"
                     },
-                    "date": "Dec 2023",
+                    "date": "Dec 2024",
                     "links": [
                         {
                             "label": "Itch.io",
-                            "url": "https://alexejhero.itch.io/tutelquest",
+                            "url": "https://alexejhero.itch.io/fragmented",
                             "type": "itchio"
                         },
                         {
                             "label": "GitHub",
-                            "url": "https://github.com/Alexejhero/TutelQuest/",
+                            "url": "https://github.com/Alexejhero/Fragmented/",
                             "type": "github"
                         }
                     ]
