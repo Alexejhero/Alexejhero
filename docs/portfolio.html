@@ -44,8 +44,8 @@
             display:flex;
             align-items:center;
             gap:8px;
-            padding:10px 48px;
-            font-size:12px;
+            padding:6px 49px 6px 48px;
+            font-size:14px;
             font-weight:700;
             letter-spacing:.12em;
             text-transform: uppercase;
@@ -74,13 +74,24 @@
             margin: 0;
         }
 
+        .award-note[hidden] {
+            display: none;
+        }
+
         .award-note .icon{
             font-size:16px;
             margin-top:2px;
         }
 
-        .award-note span {
+        .award-note a {
             flex: 1;
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px dashed transparent
+        }
+
+        .award-note a:hover {
+            border-bottom-color: currentColor
         }
 
         /* Golden link pill for award links */
@@ -520,12 +531,14 @@
                     bg: "https://cdn.glitch.com/43f72134-88ea-4e7b-ace8-4a444b9aab78%2FIcon1.png?v=1561542756208",
                     summary: "Create your own Discord bot using a visual programming interface",
                     details: "Dlockly was a website that allowed users to create their own custom Discord bot using a visual programming interface similar to Scratch.",
-                    award: "This project won 1st place in the Productivity category in the Discord Hack Week event.",
+                    award: {
+                        text: "This project won 1st place in the Productivity category in the Discord Hack Week event.",
+                        url: "https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92#:~:text=github.com-,Productivity,-1st%20Place%3A%20AlexejheroYTB"
+                    },
                     client: {name: "Open Source"},
                     date: "Jul 2019",
                     links: [
-                        {label: "GitHub", url: "https://github.com/Alexejhero/Dlockly", type: "github"},
-                        {label: "Award", url: "https://medium.com/discord-engineering/discord-community-hack-week-category-winners-bd0364360f92#:~:text=github.com-,Productivity,-1st%20Place%3A%20AlexejheroYTB", type: "award"}
+                        {label: "GitHub", url: "https://github.com/Alexejhero/Dlockly", type: "github"}
                     ]
                 }
             ]
@@ -602,7 +615,7 @@
                     ribbonLabel.appendChild(icon('award'));
                     const ribbonText = document.createElement('span');
                     ribbonText.className = 'label-text';
-                    ribbonText.textContent = 'Awarded';
+                    ribbonText.textContent = 'Award';
                     ribbonLabel.appendChild(ribbonText);
                     ribbon.appendChild(ribbonLabel);
                     ribbon.hidden = false;
@@ -611,9 +624,14 @@
                     const awardNote = t.querySelector('.award-note');
                     awardNote.innerHTML = '';
                     awardNote.appendChild(icon('award'));
-                    const span = document.createElement('span');
+                    const span = document.createElement('a');
                     span.textContent = awardText;
                     awardNote.appendChild(span);
+                    if (p.award.url) {
+                        span.href = p.award.url;
+                        span.target = '_blank';
+                        span.rel = 'noreferrer noopener';
+                    }
                     awardNote.hidden = false;
                 }
 
