@@ -6,7 +6,8 @@ const iconMap = {
     github: 'bi-github',
     nexusmods: 'icon-nexusmods',
     itchio: 'fa-brands fa-itch-io',
-    award: 'bi-award-fill'
+    award: 'bi-award-fill',
+    notable: 'bi-star-fill'
 };
 
 const select = (selector, root = document) => root.querySelector(selector);
@@ -33,17 +34,27 @@ const renderAward = (fragment, award) => {
     const ribbon = select('.award-ribbon', fragment);
     const note = select('.award-note', fragment);
 
-    if (!award) {
+    if (ribbon) {
+        ribbon.innerHTML = '';
         ribbon.hidden = true;
+        ribbon.removeAttribute('title');
+    }
+
+    if (!note) return;
+
+    note.innerHTML = '';
+    note.classList.remove('gold');
+
+    if (!award) {
         note.hidden = true;
         return;
     }
 
     const awardText = typeof award === 'string' ? award : award.text || '';
     const hasUrl = typeof award === 'object' && Boolean(award.url);
+    const highlight = typeof award === 'object' && Boolean(award.highlight);
 
-    if (award.highlight) {
-        ribbon.innerHTML = '';
+    if (highlight && ribbon) {
         const ribbonLabel = document.createElement('div');
         ribbonLabel.className = 'ribbon-label';
         ribbonLabel.append(createIcon('award'));
@@ -56,11 +67,12 @@ const renderAward = (fragment, award) => {
         ribbon.append(ribbonLabel);
         ribbon.hidden = false;
         ribbon.title = awardText || 'Awarded project';
-
-        note.classList.add("gold");
     }
 
-    note.innerHTML = '';
+    if (highlight) {
+        note.classList.add('gold');
+    }
+
     note.append(createIcon('award'));
 
     const textNode = document.createElement(hasUrl ? 'a' : 'span');
@@ -74,6 +86,38 @@ const renderAward = (fragment, award) => {
 
     note.append(textNode);
     note.hidden = !awardText;
+};
+
+const renderNotable = (fragment, notable) => {
+    const ribbon = select('.notable-ribbon', fragment);
+    if (!ribbon) return false;
+
+    ribbon.innerHTML = '';
+    ribbon.hidden = true;
+    ribbon.removeAttribute('title');
+
+    const isActive = typeof notable === 'object' ? notable?.active !== false : Boolean(notable);
+    if (!isActive) {
+        return false;
+    }
+
+    const label = typeof notable === 'object' && notable.label ? notable.label : 'Notable';
+    const title = typeof notable === 'object' && notable.title ? notable.title : 'Notable project';
+
+    const ribbonLabel = document.createElement('div');
+    ribbonLabel.className = 'ribbon-label';
+    ribbonLabel.append(createIcon('notable'));
+
+    const ribbonText = document.createElement('span');
+    ribbonText.className = 'label-text';
+    ribbonText.textContent = label;
+    ribbonLabel.append(ribbonText);
+
+    ribbon.append(ribbonLabel);
+    ribbon.hidden = false;
+    ribbon.title = title;
+
+    return true;
 };
 
 const renderLinks = (container, links = []) => {
@@ -116,9 +160,16 @@ const renderProject = (project, template) => {
     applyText(select('.tile-title', fragment), project.title);
     applyText(select('.summary', fragment), project.summary);
 
+    tile.classList.remove('awarded', 'notable');
+
     renderAward(fragment, project.award);
     if (project.award && project.award.highlight) {
         tile.classList.add('awarded');
+    }
+
+    const notableActive = renderNotable(fragment, project.notable);
+    if (notableActive) {
+        tile.classList.add('notable');
     }
 
     const metaParts = [project.client?.name, project.date].filter(Boolean);
