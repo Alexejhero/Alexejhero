@@ -280,7 +280,7 @@ h2 {
 
 .tile:hover .bg,
 .tile:focus-within .bg {
-    filter: blur(3px) brightness(.55);
+    filter: blur(5px) brightness(.30);
 }
 
 .tile:hover .scrim-base,
