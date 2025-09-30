@@ -92,16 +92,6 @@
     border-bottom-color: currentColor;
 }
 
-.btn.award {
-    background: rgba(250, 204, 21, .18);
-    color: var(--gold);
-    outline: 1px solid rgba(250, 204, 21, .45);
-}
-
-.btn.award:hover {
-    background: rgba(250, 204, 21, .28);
-}
-
 html,
 body {
     height: 100%;
@@ -199,6 +189,14 @@ body {
     justify-content: center;
     font-size: 16px;
     line-height: 1;
+}
+
+.icon-nexusmods {
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+    mask: url('./images/nexusmods.svg') no-repeat center / contain;
+    -webkit-mask: url('./images/nexusmods.svg') no-repeat center / contain;
 }
 
 .contact .icon {
