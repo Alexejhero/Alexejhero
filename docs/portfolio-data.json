@@ -357,6 +357,7 @@
                     "summary": "Various mods for Subnautica that I created over time",
                     "bgIcon": "",
                     "details": "",
+                    "sideproject": true,
                     "client": {
                         "name": "Independent Project"
                     },
@@ -379,6 +380,7 @@
                     "summary": "Entry for Neuro-sama Game Jam 2",
                     "bg": "images/fragmented.png",
                     "details": "Neuro can recount the past... only when there's enough room.",
+                    "sideproject": true,
                     "award": {
                         "text": "This project got 5th place out of 273 entries in Neuro-sama Game Jam 2.",
                         "url": "https://itch.io/jam/neuro/results"
@@ -405,6 +407,7 @@
                     "summary": "Entry for the Neuro-sama Birthday Game Jam",
                     "bg": "images/tutelquest.png",
                     "details": "Vedal awakens from a rough night, hearing Neuro call out in distress, then gets pulled into a mysterious digital world.",
+                    "sideproject": true,
                     "award": {
                         "text": "This project won 1st place out of 122 entries in the Neuro-sama Birthday Game Jam.",
                         "url": "https://itch.io/jam/neurosama-birthday-game-jam/results",

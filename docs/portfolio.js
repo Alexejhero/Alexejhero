@@ -12,6 +12,9 @@ const iconMap = {
     tool: "bi-tools"
 };
 
+let portfolioData = null;
+let showSideProjects = false;
+
 const select = (selector, root = document) => root.querySelector(selector);
 
 const createIcon = (type) => {
@@ -152,6 +155,7 @@ const renderProject = (project, template) => {
     const tile = select('.tile', fragment);
     const background = select('.bg', fragment);
     const placeholder = select('.bg-placeholder', fragment);
+    const sideProjectBanner = select('.sideproject-banner', fragment);
 
     if (project.bg) {
         background.src = project.bg;
@@ -185,6 +189,12 @@ const renderProject = (project, template) => {
         } else {
             placeholder.hidden = true;
         }
+    }
+
+    if (sideProjectBanner) {
+        const isSideProject = Boolean(project.sideproject);
+        sideProjectBanner.hidden = !isSideProject;
+        tile?.classList.toggle('is-sideproject', isSideProject);
     }
 
     applyText(select('.tile-title', fragment), project.title);
@@ -257,8 +267,13 @@ const renderContact = (contacts = []) => {
     });
 };
 
-const renderPortfolio = (data) => {
-    renderContact(data.profile.contacts);
+const renderPortfolio = (data, options = {}) => {
+    const settings = {
+        showSideProjects: false,
+        ...options
+    };
+
+    renderContact(data.profile?.contacts);
 
     const categoriesContainer = document.getElementById('categories');
     if (!categoriesContainer) return;
@@ -270,8 +285,21 @@ const renderPortfolio = (data) => {
     };
 
     (data.categories || []).forEach((category) => {
-        renderCategory(category, templates, categoriesContainer);
+        const filteredProjects = (category.projects || []).filter((project) => settings.showSideProjects || !project.sideproject);
+        if (!filteredProjects.length) {
+            return;
+        }
+
+        renderCategory({
+            ...category,
+            projects: filteredProjects
+        }, templates, categoriesContainer);
     });
+};
+
+const updatePortfolioView = () => {
+    if (!portfolioData) return;
+    renderPortfolio(portfolioData, { showSideProjects });
 };
 
 const loadPortfolio = async () => {
@@ -282,10 +310,26 @@ const loadPortfolio = async () => {
         }
 
         const data = await response.json();
-        renderPortfolio(data);
+        portfolioData = data;
+        updatePortfolioView();
     } catch (error) {
         console.error('Unable to initialise portfolio', error);
     }
 };
 
-document.addEventListener('DOMContentLoaded', loadPortfolio);
+const setupSideProjectToggle = () => {
+    const toggle = document.getElementById('toggle-sideprojects');
+    if (!toggle) return;
+
+    toggle.checked = showSideProjects;
+
+    toggle.addEventListener('change', (event) => {
+        showSideProjects = event.target.checked;
+        updatePortfolioView();
+    });
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    setupSideProjectToggle();
+    loadPortfolio();
+});
