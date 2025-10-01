@@ -188,6 +188,7 @@
                     "summary": "Custom mods for More Sidemen",
                     "bg": "https://img.youtube.com/vi/WEK25KcWRjs/maxresdefault.jpg",
                     "details": "A custom mod created for More Sidemen's modded Among Us video, which has reached over 7 million views. (I swear there was a second one, but I can't find it any more.)",
+                    "sideproject": true,
                     "client": {
                         "name": "More Sidemen",
                         "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kg8VuO1devOCTB3RVbqdxXeUY_nwVkG-YYuWqs55fXyzo=s160-c-k-c0x00ffffff-no-rj"
@@ -206,6 +207,7 @@
                     "summary": "Custom mods for Hype Squad Gaming",
                     "bg": "https://img.youtube.com/vi/BV-btDFAsOY/maxresdefault.jpg",
                     "details": "A collection of custom mods created for Hype Squad Gaming's modded Among Us videos.",
+                    "sideproject": true,
                     "client": {
                         "name": "Hype Squad Gaming",
                         "avatar": "https://yt3.googleusercontent.com/T5jNB_Ue5VcIldyIx2Uc16_DVoXRN2sGW2gXwGb_K7p96EUqKOUB6oaOU609AbB9TGM7VlmDBw=s160-c-k-c0x00ffffff-no-rj"
@@ -224,6 +226,7 @@
                     "summary": "Modding library for Among Us",
                     "bgIcon": "tool",
                     "details": "An Among Us modding library optimized for quickly creating content creator mods.",
+                    "sideproject": true,
                     "client": {
                         "name": "Open Source (Contributor)"
                     },
@@ -241,6 +244,7 @@
                     "summary": "Custom mods for GameToons Gaming",
                     "bg": "https://img.youtube.com/vi/ebKc6-Jr0Bk/maxresdefault.jpg",
                     "details": "A few custom mods created for GameToons Gaming's modded Among Us videos, which have reached millions of views.",
+                    "sideproject": true,
                     "client": {
                         "name": "GameToons Gaming",
                         "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l9lJEX6kATC44Qr5dH8fsZoaJdLAfEH6S1TgbOHi4aLA=s160-c-k-c0x00ffffff-no-rj"
@@ -283,6 +287,7 @@
                     "summary": "Custom mods for Bakbak",
                     "bg": "https://img.youtube.com/vi/yO6IyBCeosU/maxresdefault.jpg",
                     "details": "A collection of custom mods created for Bakbak's modded Among Us videos, which have reached tens of millions of views.",
+                    "sideproject": true,
                     "client": {
                         "name": "Bakbak",
                         "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_k1Hmf3ax7jXjnfHIZHtk9KVtCf2W-48HA_3Mckwx_Z6Uw=s160-c-k-c0x00ffffff-no-rj"
@@ -380,7 +385,6 @@
                     "summary": "Entry for Neuro-sama Game Jam 2",
                     "bg": "images/fragmented.png",
                     "details": "Neuro can recount the past... only when there's enough room.",
-                    "sideproject": true,
                     "award": {
                         "text": "This project got 5th place out of 273 entries in Neuro-sama Game Jam 2.",
                         "url": "https://itch.io/jam/neuro/results"
@@ -407,7 +411,6 @@
                     "summary": "Entry for the Neuro-sama Birthday Game Jam",
                     "bg": "images/tutelquest.png",
                     "details": "Vedal awakens from a rough night, hearing Neuro call out in distress, then gets pulled into a mysterious digital world.",
-                    "sideproject": true,
                     "award": {
                         "text": "This project won 1st place out of 122 entries in the Neuro-sama Birthday Game Jam.",
                         "url": "https://itch.io/jam/neurosama-birthday-game-jam/results",
@@ -451,6 +454,7 @@
                     "summary": "Use C# 11 features in Unity, including file-scoped namespaces",
                     "bgIcon": "tool",
                     "details": "A Unity Editor extension which allows developers to change the language version to C# 11 in order to use new features, and patch their editor to support file-scoped namespaces.",
+                    "sideproject": true,
                     "client": {
                         "name": "Independent Project"
                     },
@@ -479,6 +483,7 @@
                     "summary": "Change menu items from Unity or other packages",
                     "bgIcon": "tool",
                     "details": "A Unity Editor extension which allows developers to override menu items from Unity or other packages, decluttering their interface.",
+                    "sideproject": true,
                     "client": {
                         "name": "Independent Project"
                     },
@@ -528,6 +533,7 @@
                     "summary": "Community awards site for Subnautica modders",
                     "bgIcon": "web",
                     "details": "A website created to host the Subnautica Modder of the Year awards, allowing users to vote for their favorite mods and modders of that year.",
+                    "sideproject": true,
                     "client": {
                         "name": "Independent Project"
                     },
