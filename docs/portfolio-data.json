@@ -111,6 +111,18 @@
                     "date": "2024-2025"
                 },
                 {
+                    "title": "Neuro SDK",
+                    "summary": "SDK for allowing Neuro-sama to play games",
+                    "bg": "",
+                    "details": "",
+                    "notable": true,
+                    "client": {
+                        "name": "vedal987",
+                        "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"
+                    },
+                    "date": "2024-2025"
+                },
+                {
                     "title": "Neuro-sama Liar's Bar Integration",
                     "summary": "Allowing Neuro to play Liar's Bar",
                     "bg": "",
@@ -187,7 +199,7 @@
                     "title": "Among Us Mods",
                     "summary": "Custom mods for More Sidemen",
                     "bg": "https://img.youtube.com/vi/WEK25KcWRjs/maxresdefault.jpg",
-                    "details": "A custom mod created for More Sidemen's modded Among Us video, which has reached over 7 million views. (I swear there was a second one, but I can't find it any more.)",
+                    "details": "A custom mod created for More Sidemen's modded Among Us video, which has reached over 7 million views.",
                     "client": {
                         "name": "More Sidemen",
                         "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kg8VuO1devOCTB3RVbqdxXeUY_nwVkG-YYuWqs55fXyzo=s160-c-k-c0x00ffffff-no-rj"
@@ -464,7 +476,7 @@
                     "title": "Unity Discord Audio",
                     "summary": "A Discord voice chat client for Unity",
                     "bgIcon": "tool",
-                    "details": "",
+                    "details": "A voice chat client for Unity using Discord.NET",
                     "client": {
                         "name": "vedal987",
                         "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd956f46-3776-4dfd-8bc3-e4f74c5ede67-profile_image-300x300.png"

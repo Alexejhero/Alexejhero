@@ -91,6 +91,8 @@ const renderAward = (fragment, award) => {
 };
 
 const renderNotable = (fragment, notable) => {
+    return; // TODO
+
     const ribbon = select('.notable-ribbon', fragment);
     if (!ribbon) return false;
 
@@ -220,14 +222,18 @@ const renderProject = (project, template) => {
 };
 
 const renderCategory = (category, templates, container) => {
+    category.name = "Among Us Modding Portfolio"; // TODO
+
     const fragment = templates.category.content.cloneNode(true);
     applyText(select('.category-title', fragment), category.name);
 
     const grid = select('.grid', fragment);
     category.projects.forEach((project) => {
+        if (!project.title.includes("Among Us") && !project.details.includes("Among Us")) return; // TODO
         const projectNode = renderProject(project, templates.project);
         grid.append(projectNode);
     });
+    if (grid.children.length === 0) return;
 
     container.append(fragment);
 };
