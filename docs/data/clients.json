@@ -1,0 +1,47 @@
+﻿{
+    "5up": {
+        "name": "5up",
+        "avatar": "images/clients/5up.png",
+        "link": "https://twitch.tv/5up"
+    },
+    "bakbak": {
+        "name": "Bakbak",
+        "avatar": "images/clients/bakbak.jpg",
+        "link": "https://youtube.com/@BakbakIsMe"
+    },
+    "camila": {
+        "name": "camila",
+        "avatar": "images/clients/camila.png",
+        "link": "https://twitch.tv/camila"
+    },
+    "cynosquare": {
+        "name": "CynoSquare",
+        "avatar": "images/clients/cynosquare.png",
+        "link": "https://twitch.tv/cynosquare"
+    },
+    "gametoons": {
+        "name": "GameToons Gaming",
+        "avatar": "images/clients/gametoons.jpg",
+        "link": "https://youtube.com/@GameToonsGaming"
+    },
+    "hypesquad": {
+        "name": "Hype Squad Gaming",
+        "avatar": "images/clients/hypesquad.jpg",
+        "link": "https://youtube.com/@HypeSquadRoblox"
+    },
+    "raibyte": {
+        "name": "Rai_Byte",
+        "avatar": "images/clients/raibyte.png",
+        "link": "https://twitch.tv/rai_byte"
+    },
+    "sidemen": {
+        "name": "More Sidemen",
+        "avatar": "images/clients/sidemen.jpg",
+        "link": "https://youtube.com/@MoreSidemen"
+    },
+    "vedal": {
+        "name": "vedal987",
+        "avatar": "images/clients/vedal.png",
+        "link": "https://twitch.tv/vedal987"
+    }
+}

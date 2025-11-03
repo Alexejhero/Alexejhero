@@ -1,0 +1,23 @@
+﻿{
+    "contacts": [
+        {
+            "type": "email",
+            "label": "alexejhero@gmail.com",
+            "link": "mailto:alexejhero@gmail.com"
+        },
+        {
+            "type": "discord",
+            "label": "@alexejhero"
+        },
+        {
+            "type": "github",
+            "label": "github.com/alexejhero",
+            "link": "https://github.com/alexejhero"
+        },
+        {
+            "type": "twitch",
+            "label": "twitch.tv/alexvoid",
+            "link": "https://twitch.tv/alexvoid"
+        }
+    ]
+}
