@@ -55,7 +55,7 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 - [*Tutel Quest*](https://alexejhero.itch.io/tutelquest) - A game jam game which won first place in the [Neuro-sama Birthday Game Jam](https://itch.io/jam/neurosama-birthday-game-jam)
 
 ### Among Us Modder (2020-Present)
-- 💻 [*Submerged*](https://github.com/SubmergedAmongUs/Submerged) - A mod which adds a new map with unique tasks and new gameplay mechanics to Among Us
+- [*Submerged*](https://github.com/SubmergedAmongUs/Submerged) - A mod which adds a new map with unique tasks and new gameplay mechanics to Among Us
 - *Among Us Content Creator Mods* - A large variety of [specialized mods](https://www.youtube.com/playlist?list=PL3ddDQ0FPgGbTsDCaYhTRj1R7DMzd05Wr) created for content creators
 - [*Reactor*](https://github.com/nuclearpowered/reactor) _(contributor)_ - Popular Among Us modding tool
 - [*Laboratory*](https://github.com/Among-Us-Modding/Laboratory) _(co-author)_ - Among Us modding library for content creator mods
