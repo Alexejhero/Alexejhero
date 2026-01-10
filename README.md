@@ -34,17 +34,18 @@ I worked with Bakbak for a few months, creating mods for his Among Us videos on 
 
 ## 💼 Work and Projects
 ### Developer at Vedal AI (2023-Present)
-- 💻 *Neuro-sama Inscryption Integration* - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
-- *Neuro-sama Buckshot Roulette Integration* - Buckshot Roulette integration for [Neuro-sama](https://twitch.tv/vedal987)
-- *Neuro-sama Liar's Bar Integration* - Liar's Bar integration for [Neuro-sama](https://twitch.tv/vedal987)
+- *Neuro-sama UNO Integration* - UNO integration for [Neuro-sama](https://twitch.tv/vedal987)
+- [*Neuro-sama Inscryption Integration*](https://github.com/VedalAI/neuro-inscryption/) - Inscryption integration for [Neuro-sama](https://twitch.tv/vedal987)
+- [*Neuro-sama Buckshot Roulette Integration*](https://github.com/VedalAI/neuro-buckshotroulette-reference/) - Buckshot Roulette integration for [Neuro-sama](https://twitch.tv/vedal987)
+- [*Neuro-sama Liar's Bar Integration*](https://github.com/VedalAI/neuro-liarsbar/) - Liar's Bar integration for [Neuro-sama](https://twitch.tv/vedal987)
 - [*Neuro-sama Millionaire Integration*](https://github.com/VedalAI/neuro-millionaire/) - Who Wants To Be A Millionaire integration for [Neuro-sama](https://twitch.tv/vedal987)
 - *TextMeshPro Twitch Emotes* - Unity package for rendering Twitch, 7TV and BTTV emotes in TextMeshPro
 - *Unity Discord Audio* - Unity packages for sending and receiving Discord audio using bot accounts
 - [*Swarm Control*](https://github.com/vedalai/swarm-control) - Twitch extension allowing viewers to purchase in-game redeems with bits, made for [vedal987](https://twitch.tv/vedal987)
 
 ### Unity Modder (2023-Present)
-- [*Vedal Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
-- *Vedal Inscryption Mod* - Mod made for [vedal987](https://twitch.tv/vedal987)'s playthrough of Inscryption
+- [*Vedal Subnautica Mod*](https://github.com/alexejhero/neurosama-subnautica-mod/) - Variety mod made for [vedal987](https://twitch.tv/vedal987)'s playthroughs of Subnautica and Below Zero
+- [*Vedal Inscryption Mod*](https://github.com/VedalAI/neuro-inscryption/tree/vedal/) - Mod made for [vedal987](https://twitch.tv/vedal987)'s playthrough of Inscryption
 - [*KTANE PiShock Mod*](https://github.com/Alexejhero/KTANE-PiShock-Mod/) - PiShock integration for Keep Talking and Nobody Explodes
 
 ### Unity Developer (2023-Present)
